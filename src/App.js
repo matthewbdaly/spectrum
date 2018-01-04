@@ -10,6 +10,9 @@ class App extends Component {
         <Button theme="main" />
         <Button theme="positive" />
         <Button theme="negative" />
+        <Button theme="main inverse" />
+        <Button theme="positive inverse" />
+        <Button theme="negative inverse" />
       </div>
     );
   }

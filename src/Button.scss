@@ -1,3 +1,5 @@
+@import "variables";
+
 button {
     background-color: #fff;
     color: #000;
@@ -7,17 +9,35 @@ button {
     padding: 10px;
 
     &.main {
-        background-color: blue;
+        background-color: $theme-main;
         color: #fff;
+
+        &.inverse {
+            color: $theme-main;
+            background-color: #fff;
+            border: 1px solid $theme-main;
+        }
     }
 
     &.positive {
-        background-color: green;
+        background-color: $theme-positive;
         color: #fff;
+
+        &.inverse {
+            color: $theme-positive;
+            background-color: #fff;
+            border: 1px solid $theme-positive;
+        }
     }
 
     &.negative {
-        background-color: red;
+        background-color: $theme-negative;
         color: #fff;
+
+        &.inverse {
+            color: $theme-negative;
+            background-color: #fff;
+            border: 1px solid $theme-negative;
+        }
     }
 }
