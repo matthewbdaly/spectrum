@@ -217,6 +217,11 @@ module.exports = {
           // This loader doesn't use a "test" so it will catch all modules
           // that fall through the other loaders.
           {
+              test: /\.scss$/,
+              include: paths.appSrc,
+              loaders: ["style", "css", "sass"]
+          },
+          {
             loader: require.resolve('file-loader'),
             // Exclude `js` files to keep "css" loader working as it injects
             // it's runtime that would otherwise processed through "file" loader.
