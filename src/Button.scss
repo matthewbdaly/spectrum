@@ -1,43 +1,45 @@
 @import "variables";
 
 button {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
-    margin: 5px;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: $background;
+    color: $foreground;
+    border-color: $foreground;
+    border-width: $btn-border-width;
+    border-style: $btn-border-style;
+    margin: $btn-margin;
+    border-radius: $btn-radius;
+    padding: $btn-padding;
 
     &.main {
         background-color: $theme-main;
-        color: #fff;
-        border: 1px solid $theme-main;
+        color: $background;
+        border-color: $theme-main;
 
         &.inverse {
             color: $theme-main;
-            background-color: #fff;
+            background-color: $background;
         }
     }
 
     &.positive {
         background-color: $theme-positive;
-        color: #fff;
-        border: 1px solid $theme-positive;
+        color: $background;
+        border-color: $theme-positive;
 
         &.inverse {
             color: $theme-positive;
-            background-color: #fff;
+            background-color: $background;
         }
     }
 
     &.negative {
         background-color: $theme-negative;
-        color: #fff;
-        border: 1px solid $theme-negative;
+        color: $background;
+        border-color: $theme-negative;
 
         &.inverse {
             color: $theme-negative;
-            background-color: #fff;
+            background-color: $background;
         }
     }
 }
