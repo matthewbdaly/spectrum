@@ -10,9 +10,9 @@ class App extends Component {
         <Button theme="main">Button with the main theme</Button>
         <Button theme="positive">Button with the positive theme</Button>
         <Button theme="negative">Button with the negative theme</Button>
-        <Button theme="main inverse">Button with the inverse main theme</Button>
-        <Button theme="positive inverse">Button with the inverse positive theme</Button>
-        <Button theme="negative inverse">Button with the inverse negative theme</Button>
+        <Button theme="main" inverse="true">Button with the inverse main theme</Button>
+        <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
       </div>
     );
   }
