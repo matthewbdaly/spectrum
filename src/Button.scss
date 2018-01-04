@@ -1,0 +1,23 @@
+button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+
+    &.main {
+        background-color: blue;
+        color: #fff;
+    }
+
+    &.positive {
+        background-color: green;
+        color: #fff;
+    }
+
+    &.negative {
+        background-color: red;
+        color: #fff;
+    }
+}
