@@ -11,33 +11,33 @@ button {
     &.main {
         background-color: $theme-main;
         color: #fff;
+        border: 1px solid $theme-main;
 
         &.inverse {
             color: $theme-main;
             background-color: #fff;
-            border: 1px solid $theme-main;
         }
     }
 
     &.positive {
         background-color: $theme-positive;
         color: #fff;
+        border: 1px solid $theme-positive;
 
         &.inverse {
             color: $theme-positive;
             background-color: #fff;
-            border: 1px solid $theme-positive;
         }
     }
 
     &.negative {
         background-color: $theme-negative;
         color: #fff;
+        border: 1px solid $theme-negative;
 
         &.inverse {
             color: $theme-negative;
             background-color: #fff;
-            border: 1px solid $theme-negative;
         }
     }
 }
