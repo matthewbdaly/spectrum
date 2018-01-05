@@ -1,8 +1,20 @@
+// @flow
 import React, { Component } from 'react';
+import type { Node } from 'react';
 import './Badge.scss';
 
-class Badge extends Component {
-  constructor(props) {
+type Props = {
+  theme: string,
+  children?: Node,
+  inverse: boolean
+};
+
+type State = {
+  theme: string
+};
+
+class Badge extends Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     let theme = this.props.theme;
     if (this.props.inverse) {
