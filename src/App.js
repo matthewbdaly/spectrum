@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Alert from './Components/Alert';
+import Bar from './Components/Bar';
 import Button from './Components/Button';
 import Badge from './Components/Badge';
 import Card from './Components/Card';
@@ -190,8 +191,8 @@ class Demo extends Component {
           <ListViewItem>Songs for the Deaf</ListViewItem>
           <ListViewItem>Lullabies to Paralyze</ListViewItem>
         </ListView>
-        <Button block="true" theme="positive">I like this</Button>
-        <Button block="true" theme="negative">I don't like this</Button>
+        <Button block="true" theme="positive" inverse="true">I like this</Button>
+        <Button block="true" theme="negative" inverse="true">I don't like this</Button>
         <TextInput>Your comment</TextInput>
         <TabBar>
           <TabBarItem active="true">
