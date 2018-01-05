@@ -20,6 +20,13 @@ class App extends Component {
         <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
         <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
         <Card header="Default card">This is an example of a default Card component</Card>
+        <Card header="Card with list view inside">
+          <ListView>
+            <ListViewItem>Item 1</ListViewItem>
+            <ListViewItem>Item 2</ListViewItem>
+            <ListViewItem>Item 3</ListViewItem>
+          </ListView>
+        </Card>
         <TabBar>
           <TabBarItem active="true">Tab 1</TabBarItem>
           <TabBarItem>Tab 2</TabBarItem>
