@@ -1,10 +1,12 @@
 // @flow
 import React, { Component } from 'react';
+import type { Node } from 'react';
 import './Alert.scss';
 
 type Props = {
   theme: string,
-  children: mixed
+  children?: Node,
+  dismissable: boolean
 };
 
 type State = {
