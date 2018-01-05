@@ -2,8 +2,17 @@
 import React, { Component } from 'react';
 import './Alert.scss';
 
-class Alert extends Component {
-  constructor(props) {
+type Props = {
+  theme: string,
+  children: mixed
+};
+
+type State = {
+  theme: string
+};
+
+class Alert extends Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       theme: 'alert' + (this.props.theme ? (' ' + this.props.theme) : '')
