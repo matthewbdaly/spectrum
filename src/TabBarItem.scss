@@ -1,0 +1,10 @@
+@import "variables";
+
+a.tab-bar-item {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    border-style: $border-style;
+    border-width: $border-width;
+    border-color: $border-color;
+}

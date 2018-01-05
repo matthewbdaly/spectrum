@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TabBar.scss';
 
 class TabBar extends Component {
   render() {
