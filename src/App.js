@@ -164,6 +164,8 @@ class Demo extends Component {
           <ListViewItem>Songs for the Deaf</ListViewItem>
           <ListViewItem>Lullabies to Paralyze</ListViewItem>
         </ListView>
+        <Button block="true" theme="positive">I like this</Button>
+        <Button block="true" theme="negative">I don't like this</Button>
         <TabBar>
           <TabBarItem active="true">
             <i class="fas fa-home"></i>
