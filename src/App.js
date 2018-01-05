@@ -30,6 +30,16 @@ class AlertPage extends Component {
   }
 }
 
+class BarPage extends Component {
+  render() {
+    return (
+      <div>
+        <Bar>This is a default bar</Bar>
+      </div>
+    );
+  }
+}
+
 class ButtonPage extends Component {
   render() {
     return (
@@ -221,6 +231,9 @@ class App extends Component {
           <Link to="/alerts">
             <Button theme="main">Alerts</Button>
           </Link>
+          <Link to="/bars">
+            <Button theme="main">Bars</Button>
+          </Link>
           <Link to="/buttons">
             <Button theme="main">Buttons</Button>
           </Link>
@@ -240,6 +253,7 @@ class App extends Component {
             <Button theme="main">Demo</Button>
           </Link>
           <Route exact path="/alerts" component={AlertPage} />
+          <Route exact path="/bars" component={BarPage} />
           <Route exact path="/buttons" component={ButtonPage} />
           <Route exact path="/cards" component={CardPage} />
           <Route exact path="/tab-bars" component={TabBarPage} />
