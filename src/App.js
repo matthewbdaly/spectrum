@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button';
+import Badge from './Badge';
 import Card from './Card';
 import TabBar from './TabBar';
 import TabBarItem from './TabBarItem';
@@ -29,6 +30,27 @@ class App extends Component {
           <ListViewItem>Item 1</ListViewItem>
           <ListViewItem>Item 2</ListViewItem>
           <ListViewItem>Item 3</ListViewItem>
+          <ListViewItem>
+            <Badge>5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="main">5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="positive">5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="negative">5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="main" inverse="true">5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="positive" inverse="true">5</Badge>
+          </ListViewItem>
+          <ListViewItem>
+            <Badge theme="negative" inverse="true">5</Badge>
+          </ListViewItem>
         </ListView>
       </div>
     );

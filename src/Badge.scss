@@ -1,0 +1,45 @@
+@import "variables";
+
+span.badge {
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 5px 14px;
+
+    &.inverse {
+        border-width: $btn-border-width;
+        border-style: $border-style;
+    }
+
+    &.main {
+        background-color: $theme-main;
+        color: $background;
+        border-color: $theme-main;
+
+        &.inverse {
+            color: $theme-main;
+            background-color: $background;
+        }
+    }
+
+    &.positive {
+        background-color: $theme-positive;
+        color: $background;
+        border-color: $theme-positive;
+
+        &.inverse {
+            color: $theme-positive;
+            background-color: $background;
+        }
+    }
+
+    &.negative {
+        background-color: $theme-negative;
+        color: $background;
+        border-color: $theme-negative;
+
+        &.inverse {
+            color: $theme-negative;
+            background-color: $background;
+        }
+    }
+}
