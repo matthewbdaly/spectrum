@@ -29,6 +29,28 @@ class ButtonPage extends Component {
         <Button theme="main" inverse="true">Button with the inverse main theme</Button>
         <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
         <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
+        <p>Buttons can also use icons</p>
+        <Button>
+          <i class="fas fa-undo"></i>
+        </Button>
+        <Button theme="main">
+          <i class="fas fa-folder-open"></i>
+        </Button>
+        <Button theme="positive">
+          <i class="fas fa-smile"></i>
+        </Button>
+        <Button theme="negative">
+          <i class="fas fa-frown"></i>
+        </Button>
+        <Button theme="main" inverse="true">
+          <i class="fas fa-signal"></i>
+        </Button>
+        <Button theme="positive" inverse="true">
+          <i class="fas fa-sliders-h"></i>
+        </Button>
+        <Button theme="negative" inverse="true">
+          <i class="fas fa-times"></i>
+        </Button>
       </div>
     );
   }
@@ -63,6 +85,21 @@ class TabBarPage extends Component {
           <TabBarItem>Tab 2</TabBarItem>
           <TabBarItem>Tab 3</TabBarItem>
           <TabBarItem>Tab 4</TabBarItem>
+        </TabBar>
+        <p> A <code>TabBarItem</code> can use your choice of icon in the content.</p>
+        <TabBar>
+          <TabBarItem active="true">
+            <i class="fas fa-home"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-folder"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-list"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-user"></i>
+          </TabBarItem>
         </TabBar>
       </div>
     );
