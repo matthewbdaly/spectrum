@@ -205,7 +205,7 @@ class App extends Component {
             <Button theme="main">Buttons</Button>
           </Link>
           <Link to="/cards">
-            <Button theme="main">Cars</Button>
+            <Button theme="main">Cards</Button>
           </Link>
           <Link to="/tab-bars">
             <Button theme="main">Tab Bars</Button>
