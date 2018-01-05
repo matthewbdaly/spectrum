@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Alert from './Components/Alert';
 import Button from './Components/Button';
 import Badge from './Components/Badge';
 import Card from './Components/Card';
@@ -14,6 +15,19 @@ import {
   Link
 } from 'react-router-dom';
 import './App.scss';
+
+class AlertPage extends Component {
+  render() {
+    return (
+      <div>
+        <Alert>This is a default alert</Alert>
+        <Alert theme="main">This is a main alert</Alert>
+        <Alert theme="positive">This is a positive alert</Alert>
+        <Alert theme="negative">This is a negative alert</Alert>
+      </div>
+    );
+  }
+}
 
 class ButtonPage extends Component {
   render() {
@@ -203,6 +217,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Link to="/alerts">
+            <Button theme="main">Alerts</Button>
+          </Link>
           <Link to="/buttons">
             <Button theme="main">Buttons</Button>
           </Link>
@@ -221,6 +238,7 @@ class App extends Component {
           <Link to="/demo">
             <Button theme="main">Demo</Button>
           </Link>
+          <Route exact path="/alerts" component={AlertPage} />
           <Route exact path="/buttons" component={ButtonPage} />
           <Route exact path="/cards" component={CardPage} />
           <Route exact path="/tab-bars" component={TabBarPage} />
