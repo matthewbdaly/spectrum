@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Button from './Button';
-import Badge from './Badge';
-import Card from './Card';
-import TabBar from './TabBar';
-import TabBarItem from './TabBarItem';
-import ListView from './ListView';
-import ListViewItem from './ListViewItem';
+import Button from './Components/Button';
+import Badge from './Components/Badge';
+import Card from './Components/Card';
+import TabBar from './Components/TabBar';
+import TabBarItem from './Components/TabBarItem';
+import ListView from './Components/ListView';
+import ListViewItem from './Components/ListViewItem';
 import {
   BrowserRouter as Router,
   Route,
