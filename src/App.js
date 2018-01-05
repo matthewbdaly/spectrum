@@ -6,6 +6,11 @@ import TabBar from './TabBar';
 import TabBarItem from './TabBarItem';
 import ListView from './ListView';
 import ListViewItem from './ListViewItem';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
 import './App.scss';
 
 class ButtonPage extends Component {
@@ -57,32 +62,32 @@ class TabBarPage extends Component {
 class ListViewPage extends Component {
   render() {
     return (
-        <ListView>
-          <ListViewItem>Item 1</ListViewItem>
-          <ListViewItem>Item 2</ListViewItem>
-          <ListViewItem>Item 3</ListViewItem>
-          <ListViewItem>
-            <Badge>5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="main">5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="positive">5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="negative">5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="main" inverse="true">5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="positive" inverse="true">5</Badge>
-          </ListViewItem>
-          <ListViewItem>
-            <Badge theme="negative" inverse="true">5</Badge>
-          </ListViewItem>
-        </ListView>
+      <ListView>
+        <ListViewItem>Item 1</ListViewItem>
+        <ListViewItem>Item 2</ListViewItem>
+        <ListViewItem>Item 3</ListViewItem>
+        <ListViewItem>
+          <Badge>5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="main">5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="positive">5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="negative">5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="main" inverse="true">5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="positive" inverse="true">5</Badge>
+        </ListViewItem>
+        <ListViewItem>
+          <Badge theme="negative" inverse="true">5</Badge>
+        </ListViewItem>
+      </ListView>
     );
   }
 }
@@ -90,12 +95,18 @@ class ListViewPage extends Component {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <ButtonPage />
-        <CardPage />
-        <TabBarPage />
-        <ListViewPage />
-      </div>
+      <Router>
+        <div className="App">
+          <Link to="/buttons">Buttons</Link>
+          <Link to="/cards">Cards</Link>
+          <Link to="/tab-bars">Tab bars</Link>
+          <Link to="/list-views">List views</Link>
+          <Route exact path="/buttons" component={ButtonPage} />
+          <Route exact path="/cards" component={CardPage} />
+          <Route exact path="/tab-bars" component={TabBarPage} />
+          <Route exact path="/list-views" component={ListViewPage} />
+        </div>
+      </Router>
     );
   }
 }
