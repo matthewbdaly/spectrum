@@ -7,4 +7,10 @@ a.tab-bar-item {
     border-style: $border-style;
     border-width: $border-width;
     border-color: $border-color;
+
+    &.active {
+        background-color: blue;
+        border-color: blue;
+        color: #fff;
+    }
 }
