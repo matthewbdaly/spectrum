@@ -1,7 +1,13 @@
+// @flow
 import React, { Component } from 'react';
+import type { Node } from 'react';
 import './ListViewItem.scss';
 
-class ListViewItem extends Component {
+type Props = {
+  children?: Node
+}
+
+class ListViewItem extends Component<Props> {
   render() {
     return (
       <li className="listview-item">

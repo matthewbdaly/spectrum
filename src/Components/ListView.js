@@ -1,7 +1,13 @@
+// @flow
 import React, { Component } from 'react';
+import type { Node } from 'react';
 import './ListView.scss';
 
-class ListView extends Component {
+type Props = {
+  children?: Node
+}
+
+class ListView extends Component<Props> {
   render() {
     return (
       <ul className="listview">
