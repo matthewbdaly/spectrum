@@ -3,6 +3,8 @@ import Button from './Button';
 import Card from './Card';
 import TabBar from './TabBar';
 import TabBarItem from './TabBarItem';
+import ListView from './ListView';
+import ListViewItem from './ListViewItem';
 import './App.scss';
 
 class App extends Component {
@@ -23,6 +25,11 @@ class App extends Component {
           <TabBarItem>Tab 3</TabBarItem>
           <TabBarItem>Tab 4</TabBarItem>
         </TabBar>
+        <ListView>
+          <ListViewItem>Item 1</ListViewItem>
+          <ListViewItem>Item 2</ListViewItem>
+          <ListViewItem>Item 3</ListViewItem>
+        </ListView>
       </div>
     );
   }
