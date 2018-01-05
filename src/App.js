@@ -143,6 +143,37 @@ class ListViewPage extends Component {
   }
 }
 
+class Demo extends Component {
+  render() {
+    return (
+      <div>
+        <Card header="Queens of the Stone Age">
+          <p>Founded by Josh Homme after Kyuss disbanded.</p>
+        </Card>
+        <ListView>
+          <ListViewItem>Rated R</ListViewItem>
+          <ListViewItem>Songs for the Deaf</ListViewItem>
+          <ListViewItem>Lullabies to Paralyze</ListViewItem>
+        </ListView>
+        <TabBar>
+          <TabBarItem active="true">
+            <i class="fas fa-home"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-folder"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-list"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i class="fas fa-user"></i>
+          </TabBarItem>
+        </TabBar>
+      </div>
+    );
+  }
+}
+
 class App extends Component {
   render() {
     return (
@@ -160,10 +191,14 @@ class App extends Component {
           <Link to="/list-views">
             <Button theme="main">List Views</Button>
           </Link>
+          <Link to="/demo">
+            <Button theme="main">Demo</Button>
+          </Link>
           <Route exact path="/buttons" component={ButtonPage} />
           <Route exact path="/cards" component={CardPage} />
           <Route exact path="/tab-bars" component={TabBarPage} />
           <Route exact path="/list-views" component={ListViewPage} />
+          <Route exact path="/demo" component={Demo} />
         </div>
       </Router>
     );
