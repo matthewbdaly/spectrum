@@ -7,6 +7,7 @@ import TabBarItem from './Components/TabBarItem';
 import ListView from './Components/ListView';
 import ListViewItem from './Components/ListViewItem';
 import Loader from './Components/Loader';
+import TextInput from './Components/TextInput';
 import {
   BrowserRouter as Router,
   Route,
@@ -177,6 +178,7 @@ class Demo extends Component {
         </ListView>
         <Button block="true" theme="positive">I like this</Button>
         <Button block="true" theme="negative">I don't like this</Button>
+        <TextInput>Your comment</TextInput>
         <TabBar>
           <TabBarItem active="true">
             <i class="fas fa-home"></i>
