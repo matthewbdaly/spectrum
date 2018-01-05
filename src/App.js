@@ -148,10 +148,18 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Link to="/buttons">Buttons</Link>
-          <Link to="/cards">Cards</Link>
-          <Link to="/tab-bars">Tab bars</Link>
-          <Link to="/list-views">List views</Link>
+          <Link to="/buttons">
+            <Button theme="main">Buttons</Button>
+          </Link>
+          <Link to="/cards">
+            <Button theme="main">Cars</Button>
+          </Link>
+          <Link to="/tab-bars">
+            <Button theme="main">Tab Bars</Button>
+          </Link>
+          <Link to="/list-views">
+            <Button theme="main">List Views</Button>
+          </Link>
           <Route exact path="/buttons" component={ButtonPage} />
           <Route exact path="/cards" component={CardPage} />
           <Route exact path="/tab-bars" component={TabBarPage} />
