@@ -6,6 +6,7 @@ import TabBar from './Components/TabBar';
 import TabBarItem from './Components/TabBarItem';
 import ListView from './Components/ListView';
 import ListViewItem from './Components/ListViewItem';
+import Loader from './Components/Loader';
 import {
   BrowserRouter as Router,
   Route,
@@ -152,6 +153,16 @@ class ListViewPage extends Component {
   }
 }
 
+class LoaderPage extends Component {
+  render() {
+    return (
+      <div>
+        <Loader />
+      </div>
+    );
+  }
+}
+
 class Demo extends Component {
   render() {
     return (
@@ -202,6 +213,9 @@ class App extends Component {
           <Link to="/list-views">
             <Button theme="main">List Views</Button>
           </Link>
+          <Link to="/loader">
+            <Button theme="main">Loader</Button>
+          </Link>
           <Link to="/demo">
             <Button theme="main">Demo</Button>
           </Link>
@@ -209,6 +223,7 @@ class App extends Component {
           <Route exact path="/cards" component={CardPage} />
           <Route exact path="/tab-bars" component={TabBarPage} />
           <Route exact path="/list-views" component={ListViewPage} />
+          <Route exact path="/loader" component={LoaderPage} />
           <Route exact path="/demo" component={Demo} />
         </div>
       </Router>
