@@ -42,4 +42,9 @@ button {
             background-color: $background;
         }
     }
+
+    &.block {
+        display: block;
+        width: 100%;
+    }
 }

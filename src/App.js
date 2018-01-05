@@ -51,6 +51,15 @@ class ButtonPage extends Component {
         <Button theme="negative" inverse="true">
           <i class="fas fa-times"></i>
         </Button>
+        <p>Buttons can be set as "block" buttons</p>
+        <Button block="true">Default Button</Button>
+        <Button block="true" theme="main">Button with the main theme</Button>
+        <Button block="true" theme="positive">Button with the positive theme</Button>
+        <Button block="true" theme="negative">Button with the negative theme</Button>
+        <Button block="true" theme="main" inverse="true">Button with the inverse main theme</Button>
+        <Button block="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button block="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
+
       </div>
     );
   }

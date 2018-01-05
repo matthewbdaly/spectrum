@@ -8,6 +8,9 @@ class Button extends Component {
     if (this.props.inverse) {
       theme += " inverse";
     }
+    if (this.props.block) {
+      theme += " block";
+    }
     this.state = {
       theme: theme
     };
