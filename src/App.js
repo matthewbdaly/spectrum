@@ -8,10 +8,10 @@ import ListView from './ListView';
 import ListViewItem from './ListViewItem';
 import './App.scss';
 
-class App extends Component {
+class ButtonPage extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <Button>Default Button</Button>
         <Button theme="main">Button with the main theme</Button>
         <Button theme="positive">Button with the positive theme</Button>
@@ -19,6 +19,15 @@ class App extends Component {
         <Button theme="main" inverse="true">Button with the inverse main theme</Button>
         <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
         <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
+      </div>
+    );
+  }
+}
+
+class CardPage extends Component {
+  render() {
+    return (
+      <div>
         <Card header="Default card">This is an example of a default Card component</Card>
         <Card header="Card with list view inside">
           <ListView>
@@ -27,12 +36,27 @@ class App extends Component {
             <ListViewItem>Item 3</ListViewItem>
           </ListView>
         </Card>
-        <TabBar>
-          <TabBarItem active="true">Tab 1</TabBarItem>
-          <TabBarItem>Tab 2</TabBarItem>
-          <TabBarItem>Tab 3</TabBarItem>
-          <TabBarItem>Tab 4</TabBarItem>
-        </TabBar>
+      </div>
+    );
+  }
+}
+
+class TabBarPage extends Component {
+  render() {
+    return (
+      <TabBar>
+        <TabBarItem active="true">Tab 1</TabBarItem>
+        <TabBarItem>Tab 2</TabBarItem>
+        <TabBarItem>Tab 3</TabBarItem>
+        <TabBarItem>Tab 4</TabBarItem>
+      </TabBar>
+    );
+  }
+}
+
+class ListViewPage extends Component {
+  render() {
+    return (
         <ListView>
           <ListViewItem>Item 1</ListViewItem>
           <ListViewItem>Item 2</ListViewItem>
@@ -59,6 +83,18 @@ class App extends Component {
             <Badge theme="negative" inverse="true">5</Badge>
           </ListViewItem>
         </ListView>
+    );
+  }
+}
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <ButtonPage />
+        <CardPage />
+        <TabBarPage />
+        <ListViewPage />
       </div>
     );
   }
