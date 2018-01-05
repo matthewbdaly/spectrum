@@ -1,7 +1,11 @@
+// @flow
 import React, { Component } from 'react';
 import './Loader.scss';
 
-class Loader extends Component {
+type Props = {
+};
+
+class Loader extends Component<Props> {
   render() {
     return (
       <div>

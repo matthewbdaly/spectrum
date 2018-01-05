@@ -1,8 +1,19 @@
+// @flow
 import React, { Component } from 'react';
+import type { Node } from 'react';
 import './TabBarItem.scss';
 
-class TabBarItem extends Component {
-  constructor(props) {
+type Props = {
+  active: mixed,
+  children?: Node
+};
+
+type State = {
+  active: mixed,
+};
+
+class TabBarItem extends Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       active: this.props.active
