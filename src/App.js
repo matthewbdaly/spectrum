@@ -58,25 +58,25 @@ class ButtonPage extends Component {
         <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
         <p>Buttons can also use icons</p>
         <Button>
-          <i class="fas fa-undo"></i>
+          <i className="fas fa-undo"></i>
         </Button>
         <Button theme="main">
-          <i class="fas fa-folder-open"></i>
+          <i className="fas fa-folder-open"></i>
         </Button>
         <Button theme="positive">
-          <i class="fas fa-smile"></i>
+          <i className="fas fa-smile"></i>
         </Button>
         <Button theme="negative">
-          <i class="fas fa-frown"></i>
+          <i className="fas fa-frown"></i>
         </Button>
         <Button theme="main" inverse="true">
-          <i class="fas fa-signal"></i>
+          <i className="fas fa-signal"></i>
         </Button>
         <Button theme="positive" inverse="true">
-          <i class="fas fa-sliders-h"></i>
+          <i className="fas fa-sliders-h"></i>
         </Button>
         <Button theme="negative" inverse="true">
-          <i class="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </Button>
         <p>Buttons can be set as "block" buttons</p>
         <Button block="true">Default Button</Button>
@@ -125,16 +125,16 @@ class TabBarPage extends Component {
         <p> A <code>TabBarItem</code> can use your choice of icon in the content.</p>
         <TabBar>
           <TabBarItem active="true">
-            <i class="fas fa-home"></i>
+            <i className="fas fa-home"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-folder"></i>
+            <i className="fas fa-folder"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-list"></i>
+            <i className="fas fa-list"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-user"></i>
+            <i className="fas fa-user"></i>
           </TabBarItem>
         </TabBar>
       </div>
@@ -194,7 +194,7 @@ class Demo extends Component {
     return (
       <div>
         <Card header="Queens of the Stone Age">
-          <p>Founded by Josh Homme after Kyuss disbanded.</p>
+          <p>Queens of the Stone Age is an American rock band formed in 1996 in Palm Desert, California. The band's line-up includes founder Josh Homme (lead vocals, guitar, piano), alongside longtime members Troy Van Leeuwen (guitar, lap steel, keyboard, percussion, backing vocals), Michael Shuman (bass guitar, keyboard, backing vocals), Dean Fertita (keyboards, guitar, percussion, backing vocals), and recent addition Jon Theodore (drums, percussion).</p>
         </Card>
         <ListView>
           <ListViewItem>Rated R</ListViewItem>
@@ -206,16 +206,16 @@ class Demo extends Component {
         <TextInput>Your comment</TextInput>
         <TabBar>
           <TabBarItem active="true">
-            <i class="fas fa-home"></i>
+            <i className="fas fa-home"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-folder"></i>
+            <i className="fas fa-folder"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-list"></i>
+            <i className="fas fa-list"></i>
           </TabBarItem>
           <TabBarItem>
-            <i class="fas fa-user"></i>
+            <i className="fas fa-user"></i>
           </TabBarItem>
         </TabBar>
       </div>
