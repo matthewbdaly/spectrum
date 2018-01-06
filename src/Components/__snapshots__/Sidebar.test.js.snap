@@ -17,7 +17,7 @@ Sidebar {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-        "lineNumber": 13,
+        "lineNumber": 24,
       },
       "alternate": null,
       "child": null,
@@ -53,7 +53,9 @@ Sidebar {
     "key": null,
     "lastEffect": null,
     "memoizedProps": Object {},
-    "memoizedState": null,
+    "memoizedState": Object {
+      "active": undefined,
+    },
     "nextEffect": null,
     "pendingProps": null,
     "ref": null,
@@ -179,7 +181,9 @@ Sidebar {
   "context": Object {},
   "props": Object {},
   "refs": Object {},
-  "state": null,
+  "state": Object {
+    "active": undefined,
+  },
   "updater": Object {
     "enqueueForceUpdate": [Function],
     "enqueueReplaceState": [Function],

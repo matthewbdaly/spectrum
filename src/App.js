@@ -9,6 +9,7 @@ import TabBarItem from './Components/TabBarItem';
 import ListView from './Components/ListView';
 import ListViewItem from './Components/ListViewItem';
 import Loader from './Components/Loader';
+import Sidebar from './Components/Sidebar';
 import TextInput from './Components/TextInput';
 import {
   BrowserRouter as Router,
@@ -199,6 +200,16 @@ class Demo extends Component {
   render() {
     return (
       <div>
+        <Sidebar>
+          <Link to="/alerts">Alerts</Link>
+          <Link to="/bars">Bars</Link>
+          <Link to="/buttons">Buttons</Link>
+          <Link to="/cards">Cards</Link>
+          <Link to="/tab-bars">Tab Bars</Link>
+          <Link to="/list-views">List Views</Link>
+          <Link to="/loader">Loader</Link>
+          <Link to="/demo">Demo</Link>
+        </Sidebar>
         <Bar theme="main">
           <Button theme="main">
             <i className="fas fa-plus"></i>

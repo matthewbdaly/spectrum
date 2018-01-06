@@ -4,13 +4,24 @@ import type { Node } from 'react';
 import './Sidebar.scss';
 
 type Props = {
-  children?: Node
+  children?: Node,
+  active: boolean
 };
 
-class Sidebar extends Component<Props> {
+type State = {
+  active: boolean
+};
+
+class Sidebar extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
+    this.state = {
+      active: this.props.active ? true : false
+    };
+  }
   render() {
     return (
-      <div className="sidebar">
+      <div className={ 'sidebar' + (this.state.active ? ' active' : '') }>
         {this.props.children}
       </div>
     );
