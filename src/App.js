@@ -11,6 +11,7 @@ import ListViewItem from './Components/ListViewItem';
 import Loader from './Components/Loader';
 import Sidebar from './Components/Sidebar';
 import TextInput from './Components/TextInput';
+import Toggle from './Components/Toggle';
 import {
   BrowserRouter as Router,
   Route
@@ -256,6 +257,7 @@ class Demo extends Component {
         <Button block="true" theme="positive" inverse="true">I like this</Button>
         <Button block="true" theme="negative" inverse="true">I don't like this</Button>
         <TextInput>Your comment</TextInput>
+				<Toggle checked={true} />
         <TabBar>
           <TabBarItem active="true">
             <i className="fas fa-home"></i>

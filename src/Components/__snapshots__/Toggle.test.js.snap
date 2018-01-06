@@ -17,7 +17,7 @@ Toggle {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-        "lineNumber": 12,
+        "lineNumber": 22,
       },
       "alternate": null,
       "child": FiberNode {
@@ -26,7 +26,7 @@ Toggle {
         "_debugOwner": [Circular],
         "_debugSource": Object {
           "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-          "lineNumber": 13,
+          "lineNumber": 23,
         },
         "alternate": null,
         "child": null,
@@ -51,7 +51,7 @@ Toggle {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-            "lineNumber": 14,
+            "lineNumber": 24,
           },
           "alternate": null,
           "child": null,
@@ -133,7 +133,9 @@ Toggle {
     "key": null,
     "lastEffect": null,
     "memoizedProps": Object {},
-    "memoizedState": null,
+    "memoizedState": Object {
+      "checked": undefined,
+    },
     "nextEffect": null,
     "pendingProps": null,
     "ref": null,
@@ -273,7 +275,9 @@ Toggle {
   "context": Object {},
   "props": Object {},
   "refs": Object {},
-  "state": null,
+  "state": Object {
+    "checked": undefined,
+  },
   "updater": Object {
     "enqueueForceUpdate": [Function],
     "enqueueReplaceState": [Function],
