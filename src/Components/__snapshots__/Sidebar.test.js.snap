@@ -1,100 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should match the snapshot 1`] = `
-Sidebar {
+BrowserRouter {
   "_reactInternalFiber": FiberNode {
-    "_debugID": 23,
+    "_debugID": 33,
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
       "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.test.js",
-      "lineNumber": 38,
+      "lineNumber": 45,
     },
     "alternate": null,
     "child": FiberNode {
-      "_debugID": 24,
+      "_debugID": 34,
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
-      "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-        "lineNumber": 30,
-      },
+      "_debugSource": null,
       "alternate": null,
       "child": FiberNode {
-        "_debugID": 25,
+        "_debugID": 35,
         "_debugIsCurrentlyTiming": false,
-        "_debugOwner": [Circular],
+        "_debugOwner": null,
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-          "lineNumber": 24,
+          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.test.js",
+          "lineNumber": 46,
         },
         "alternate": null,
         "child": FiberNode {
-          "_debugID": 33,
+          "_debugID": 36,
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-            "lineNumber": 25,
-          },
-          "alternate": null,
-          "child": null,
-          "effectTag": 0,
-          "expirationTime": 0,
-          "firstEffect": null,
-          "index": 0,
-          "internalContextTag": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "children": "Alerts",
-            "href": "/alerts",
-          },
-          "memoizedState": null,
-          "nextEffect": null,
-          "pendingProps": null,
-          "ref": null,
-          "return": [Circular],
-          "sibling": null,
-          "stateNode": <a
-            href="/alerts"
->
-            Alerts
-</a>,
-          "tag": 5,
-          "type": "a",
-          "updateQueue": null,
-        },
-        "effectTag": 0,
-        "expirationTime": 0,
-        "firstEffect": null,
-        "index": 0,
-        "internalContextTag": 0,
-        "key": "0",
-        "lastEffect": null,
-        "memoizedProps": Object {
-          "children": <a
-            href="/alerts"
->
-            Alerts
-</a>,
-        },
-        "memoizedState": null,
-        "nextEffect": null,
-        "pendingProps": null,
-        "ref": null,
-        "return": [Circular],
-        "sibling": FiberNode {
-          "_debugID": 26,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": [Circular],
-          "_debugSource": Object {
-            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-            "lineNumber": 24,
+            "lineNumber": 31,
           },
           "alternate": null,
           "child": FiberNode {
-            "_debugID": 34,
+            "_debugID": 37,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
@@ -102,133 +44,20 @@ Sidebar {
               "lineNumber": 25,
             },
             "alternate": null,
-            "child": null,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 0,
-            "internalContextTag": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": "Bars",
-              "href": "/bars",
-            },
-            "memoizedState": null,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": [Circular],
-            "sibling": null,
-            "stateNode": <a
-              href="/bars"
->
-              Bars
-</a>,
-            "tag": 5,
-            "type": "a",
-            "updateQueue": null,
-          },
-          "effectTag": 0,
-          "expirationTime": 0,
-          "firstEffect": null,
-          "index": 1,
-          "internalContextTag": 0,
-          "key": "1",
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "children": <a
-              href="/bars"
->
-              Bars
-</a>,
-          },
-          "memoizedState": null,
-          "nextEffect": null,
-          "pendingProps": null,
-          "ref": null,
-          "return": [Circular],
-          "sibling": FiberNode {
-            "_debugID": 27,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": Object {
-              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-              "lineNumber": 24,
-            },
-            "alternate": null,
             "child": FiberNode {
-              "_debugID": 35,
+              "_debugID": 45,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                "lineNumber": 25,
-              },
-              "alternate": null,
-              "child": null,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 0,
-              "internalContextTag": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": "Buttons",
-                "href": "/buttons",
-              },
-              "memoizedState": null,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": [Circular],
-              "sibling": null,
-              "stateNode": <a
-                href="/buttons"
->
-                Buttons
-</a>,
-              "tag": 5,
-              "type": "a",
-              "updateQueue": null,
-            },
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 2,
-            "internalContextTag": 0,
-            "key": "2",
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": <a
-                href="/buttons"
->
-                Buttons
-</a>,
-            },
-            "memoizedState": null,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": [Circular],
-            "sibling": FiberNode {
-              "_debugID": 28,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": Object {
-                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                "lineNumber": 24,
+                "lineNumber": 26,
               },
               "alternate": null,
               "child": FiberNode {
-                "_debugID": 36,
+                "_debugID": 46,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
-                "_debugSource": Object {
-                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                  "lineNumber": 25,
-                },
+                "_debugSource": null,
                 "alternate": null,
                 "child": null,
                 "effectTag": 0,
@@ -239,8 +68,9 @@ Sidebar {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "Cards",
-                  "href": "/cards",
+                  "children": "Alerts",
+                  "href": "/alerts",
+                  "onClick": [Function],
                 },
                 "memoizedState": null,
                 "nextEffect": null,
@@ -249,50 +79,205 @@ Sidebar {
                 "return": [Circular],
                 "sibling": null,
                 "stateNode": <a
-                  href="/cards"
+                  href="/alerts"
 >
-                  Cards
+                  Alerts
 </a>,
                 "tag": 5,
                 "type": "a",
                 "updateQueue": null,
               },
-              "effectTag": 0,
+              "effectTag": 1,
               "expirationTime": 0,
               "firstEffect": null,
-              "index": 3,
+              "index": 0,
               "internalContextTag": 0,
-              "key": "3",
+              "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <a
-                  href="/cards"
->
-                  Cards
-</a>,
+                "children": "Alerts",
+                "replace": false,
+                "to": "/alerts",
               },
               "memoizedState": null,
               "nextEffect": null,
               "pendingProps": null,
               "ref": null,
               "return": [Circular],
-              "sibling": FiberNode {
-                "_debugID": 29,
+              "sibling": null,
+              "stateNode": Link {
+                "__reactInternalMemoizedMaskedChildContext": Object {
+                  "router": Object {
+                    "history": Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "createHref": [Function],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    },
+                    "route": Object {
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "match": Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      },
+                    },
+                  },
+                },
+                "__reactInternalMemoizedUnmaskedChildContext": Object {
+                  "router": Object {
+                    "history": Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "createHref": [Function],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    },
+                    "route": Object {
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "match": Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      },
+                    },
+                  },
+                },
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {
+                  "router": Object {
+                    "history": Object {
+                      "action": "POP",
+                      "block": [Function],
+                      "createHref": [Function],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    },
+                    "route": Object {
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "match": Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      },
+                    },
+                  },
+                },
+                "handleClick": [Function],
+                "props": Object {
+                  "children": "Alerts",
+                  "replace": false,
+                  "to": "/alerts",
+                },
+                "refs": Object {},
+                "state": null,
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "internalContextTag": 0,
+            "key": "0",
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <Link
+                replace={false}
+                to="/alerts"
+>
+                Alerts
+</Link>,
+            },
+            "memoizedState": null,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 38,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                "lineNumber": 25,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 47,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                  "lineNumber": 24,
+                  "lineNumber": 26,
                 },
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 37,
+                  "_debugID": 48,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
-                  "_debugSource": Object {
-                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                    "lineNumber": 25,
-                  },
+                  "_debugSource": null,
                   "alternate": null,
                   "child": null,
                   "effectTag": 0,
@@ -303,8 +288,9 @@ Sidebar {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "List Views",
-                    "href": "/list-views",
+                    "children": "Bars",
+                    "href": "/bars",
+                    "onClick": [Function],
                   },
                   "memoizedState": null,
                   "nextEffect": null,
@@ -313,50 +299,205 @@ Sidebar {
                   "return": [Circular],
                   "sibling": null,
                   "stateNode": <a
-                    href="/list-views"
+                    href="/bars"
 >
-                    List Views
+                    Bars
 </a>,
                   "tag": 5,
                   "type": "a",
                   "updateQueue": null,
                 },
-                "effectTag": 0,
+                "effectTag": 1,
                 "expirationTime": 0,
                 "firstEffect": null,
-                "index": 4,
+                "index": 0,
                 "internalContextTag": 0,
-                "key": "4",
+                "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <a
-                    href="/list-views"
->
-                    List Views
-</a>,
+                  "children": "Bars",
+                  "replace": false,
+                  "to": "/bars",
                 },
                 "memoizedState": null,
                 "nextEffect": null,
                 "pendingProps": null,
                 "ref": null,
                 "return": [Circular],
-                "sibling": FiberNode {
-                  "_debugID": 30,
+                "sibling": null,
+                "stateNode": Link {
+                  "__reactInternalMemoizedMaskedChildContext": Object {
+                    "router": Object {
+                      "history": Object {
+                        "action": "POP",
+                        "block": [Function],
+                        "createHref": [Function],
+                        "go": [Function],
+                        "goBack": [Function],
+                        "goForward": [Function],
+                        "length": 1,
+                        "listen": [Function],
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "push": [Function],
+                        "replace": [Function],
+                      },
+                      "route": Object {
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "match": Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        },
+                      },
+                    },
+                  },
+                  "__reactInternalMemoizedUnmaskedChildContext": Object {
+                    "router": Object {
+                      "history": Object {
+                        "action": "POP",
+                        "block": [Function],
+                        "createHref": [Function],
+                        "go": [Function],
+                        "goBack": [Function],
+                        "goForward": [Function],
+                        "length": 1,
+                        "listen": [Function],
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "push": [Function],
+                        "replace": [Function],
+                      },
+                      "route": Object {
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "match": Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        },
+                      },
+                    },
+                  },
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {
+                    "router": Object {
+                      "history": Object {
+                        "action": "POP",
+                        "block": [Function],
+                        "createHref": [Function],
+                        "go": [Function],
+                        "goBack": [Function],
+                        "goForward": [Function],
+                        "length": 1,
+                        "listen": [Function],
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "push": [Function],
+                        "replace": [Function],
+                      },
+                      "route": Object {
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "match": Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        },
+                      },
+                    },
+                  },
+                  "handleClick": [Function],
+                  "props": Object {
+                    "children": "Bars",
+                    "replace": false,
+                    "to": "/bars",
+                  },
+                  "refs": Object {},
+                  "state": null,
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "internalContextTag": 0,
+              "key": "1",
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <Link
+                  replace={false}
+                  to="/bars"
+>
+                  Bars
+</Link>,
+              },
+              "memoizedState": null,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 39,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                  "lineNumber": 25,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 49,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                    "lineNumber": 24,
+                    "lineNumber": 26,
                   },
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 38,
+                    "_debugID": 50,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
-                    "_debugSource": Object {
-                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                      "lineNumber": 25,
-                    },
+                    "_debugSource": null,
                     "alternate": null,
                     "child": null,
                     "effectTag": 0,
@@ -367,8 +508,9 @@ Sidebar {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": "Tab Bars",
-                      "href": "/tab-bars",
+                      "children": "Buttons",
+                      "href": "/buttons",
+                      "onClick": [Function],
                     },
                     "memoizedState": null,
                     "nextEffect": null,
@@ -377,50 +519,205 @@ Sidebar {
                     "return": [Circular],
                     "sibling": null,
                     "stateNode": <a
-                      href="/tab-bars"
+                      href="/buttons"
 >
-                      Tab Bars
+                      Buttons
 </a>,
                     "tag": 5,
                     "type": "a",
                     "updateQueue": null,
                   },
-                  "effectTag": 0,
+                  "effectTag": 1,
                   "expirationTime": 0,
                   "firstEffect": null,
-                  "index": 5,
+                  "index": 0,
                   "internalContextTag": 0,
-                  "key": "5",
+                  "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": <a
-                      href="/tab-bars"
->
-                      Tab Bars
-</a>,
+                    "children": "Buttons",
+                    "replace": false,
+                    "to": "/buttons",
                   },
                   "memoizedState": null,
                   "nextEffect": null,
                   "pendingProps": null,
                   "ref": null,
                   "return": [Circular],
-                  "sibling": FiberNode {
-                    "_debugID": 31,
+                  "sibling": null,
+                  "stateNode": Link {
+                    "__reactInternalMemoizedMaskedChildContext": Object {
+                      "router": Object {
+                        "history": Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        },
+                        "route": Object {
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "match": Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/",
+                            "url": "/",
+                          },
+                        },
+                      },
+                    },
+                    "__reactInternalMemoizedUnmaskedChildContext": Object {
+                      "router": Object {
+                        "history": Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        },
+                        "route": Object {
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "match": Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/",
+                            "url": "/",
+                          },
+                        },
+                      },
+                    },
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {
+                      "router": Object {
+                        "history": Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        },
+                        "route": Object {
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "match": Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/",
+                            "url": "/",
+                          },
+                        },
+                      },
+                    },
+                    "handleClick": [Function],
+                    "props": Object {
+                      "children": "Buttons",
+                      "replace": false,
+                      "to": "/buttons",
+                    },
+                    "refs": Object {},
+                    "state": null,
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 2,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "internalContextTag": 0,
+                "key": "2",
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <Link
+                    replace={false}
+                    to="/buttons"
+>
+                    Buttons
+</Link>,
+                },
+                "memoizedState": null,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 40,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                    "lineNumber": 25,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 51,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                      "lineNumber": 24,
+                      "lineNumber": 26,
                     },
                     "alternate": null,
                     "child": FiberNode {
-                      "_debugID": 39,
+                      "_debugID": 52,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
-                      "_debugSource": Object {
-                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                        "lineNumber": 25,
-                      },
+                      "_debugSource": null,
                       "alternate": null,
                       "child": null,
                       "effectTag": 0,
@@ -431,8 +728,9 @@ Sidebar {
                       "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
-                        "children": "Loader",
-                        "href": "/loader",
+                        "children": "Cards",
+                        "href": "/cards",
+                        "onClick": [Function],
                       },
                       "memoizedState": null,
                       "nextEffect": null,
@@ -441,50 +739,205 @@ Sidebar {
                       "return": [Circular],
                       "sibling": null,
                       "stateNode": <a
-                        href="/loader"
+                        href="/cards"
 >
-                        Loader
+                        Cards
 </a>,
                       "tag": 5,
                       "type": "a",
                       "updateQueue": null,
                     },
-                    "effectTag": 0,
+                    "effectTag": 1,
                     "expirationTime": 0,
                     "firstEffect": null,
-                    "index": 6,
+                    "index": 0,
                     "internalContextTag": 0,
-                    "key": "6",
+                    "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": <a
-                        href="/loader"
->
-                        Loader
-</a>,
+                      "children": "Cards",
+                      "replace": false,
+                      "to": "/cards",
                     },
                     "memoizedState": null,
                     "nextEffect": null,
                     "pendingProps": null,
                     "ref": null,
                     "return": [Circular],
-                    "sibling": FiberNode {
-                      "_debugID": 32,
+                    "sibling": null,
+                    "stateNode": Link {
+                      "__reactInternalMemoizedMaskedChildContext": Object {
+                        "router": Object {
+                          "history": Object {
+                            "action": "POP",
+                            "block": [Function],
+                            "createHref": [Function],
+                            "go": [Function],
+                            "goBack": [Function],
+                            "goForward": [Function],
+                            "length": 1,
+                            "listen": [Function],
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "push": [Function],
+                            "replace": [Function],
+                          },
+                          "route": Object {
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "match": Object {
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/",
+                              "url": "/",
+                            },
+                          },
+                        },
+                      },
+                      "__reactInternalMemoizedUnmaskedChildContext": Object {
+                        "router": Object {
+                          "history": Object {
+                            "action": "POP",
+                            "block": [Function],
+                            "createHref": [Function],
+                            "go": [Function],
+                            "goBack": [Function],
+                            "goForward": [Function],
+                            "length": 1,
+                            "listen": [Function],
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "push": [Function],
+                            "replace": [Function],
+                          },
+                          "route": Object {
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "match": Object {
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/",
+                              "url": "/",
+                            },
+                          },
+                        },
+                      },
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {
+                        "router": Object {
+                          "history": Object {
+                            "action": "POP",
+                            "block": [Function],
+                            "createHref": [Function],
+                            "go": [Function],
+                            "goBack": [Function],
+                            "goForward": [Function],
+                            "length": 1,
+                            "listen": [Function],
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "push": [Function],
+                            "replace": [Function],
+                          },
+                          "route": Object {
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "match": Object {
+                              "isExact": true,
+                              "params": Object {},
+                              "path": "/",
+                              "url": "/",
+                            },
+                          },
+                        },
+                      },
+                      "handleClick": [Function],
+                      "props": Object {
+                        "children": "Cards",
+                        "replace": false,
+                        "to": "/cards",
+                      },
+                      "refs": Object {},
+                      "state": null,
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 3,
+                  "internalContextTag": 0,
+                  "key": "3",
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <Link
+                      replace={false}
+                      to="/cards"
+>
+                      Cards
+</Link>,
+                  },
+                  "memoizedState": null,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 41,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                      "lineNumber": 25,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 53,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                        "lineNumber": 24,
+                        "lineNumber": 26,
                       },
                       "alternate": null,
                       "child": FiberNode {
-                        "_debugID": 40,
+                        "_debugID": 54,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
-                        "_debugSource": Object {
-                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-                          "lineNumber": 25,
-                        },
+                        "_debugSource": null,
                         "alternate": null,
                         "child": null,
                         "effectTag": 0,
@@ -495,8 +948,9 @@ Sidebar {
                         "key": null,
                         "lastEffect": null,
                         "memoizedProps": Object {
-                          "children": "Demo",
-                          "href": "/demo",
+                          "children": "List Views",
+                          "href": "/list-views",
+                          "onClick": [Function],
                         },
                         "memoizedState": null,
                         "nextEffect": null,
@@ -505,27 +959,25 @@ Sidebar {
                         "return": [Circular],
                         "sibling": null,
                         "stateNode": <a
-                          href="/demo"
+                          href="/list-views"
 >
-                          Demo
+                          List Views
 </a>,
                         "tag": 5,
                         "type": "a",
                         "updateQueue": null,
                       },
-                      "effectTag": 0,
+                      "effectTag": 1,
                       "expirationTime": 0,
                       "firstEffect": null,
-                      "index": 7,
+                      "index": 0,
                       "internalContextTag": 0,
-                      "key": "7",
+                      "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
-                        "children": <a
-                          href="/demo"
->
-                          Demo
-</a>,
+                        "children": "List Views",
+                        "replace": false,
+                        "to": "/list-views",
                       },
                       "memoizedState": null,
                       "nextEffect": null,
@@ -533,11 +985,844 @@ Sidebar {
                       "ref": null,
                       "return": [Circular],
                       "sibling": null,
+                      "stateNode": Link {
+                        "__reactInternalMemoizedMaskedChildContext": Object {
+                          "router": Object {
+                            "history": Object {
+                              "action": "POP",
+                              "block": [Function],
+                              "createHref": [Function],
+                              "go": [Function],
+                              "goBack": [Function],
+                              "goForward": [Function],
+                              "length": 1,
+                              "listen": [Function],
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "push": [Function],
+                              "replace": [Function],
+                            },
+                            "route": Object {
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "match": Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              },
+                            },
+                          },
+                        },
+                        "__reactInternalMemoizedUnmaskedChildContext": Object {
+                          "router": Object {
+                            "history": Object {
+                              "action": "POP",
+                              "block": [Function],
+                              "createHref": [Function],
+                              "go": [Function],
+                              "goBack": [Function],
+                              "goForward": [Function],
+                              "length": 1,
+                              "listen": [Function],
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "push": [Function],
+                              "replace": [Function],
+                            },
+                            "route": Object {
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "match": Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              },
+                            },
+                          },
+                        },
+                        "_reactInternalFiber": [Circular],
+                        "_reactInternalInstance": Object {},
+                        "context": Object {
+                          "router": Object {
+                            "history": Object {
+                              "action": "POP",
+                              "block": [Function],
+                              "createHref": [Function],
+                              "go": [Function],
+                              "goBack": [Function],
+                              "goForward": [Function],
+                              "length": 1,
+                              "listen": [Function],
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "push": [Function],
+                              "replace": [Function],
+                            },
+                            "route": Object {
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "match": Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              },
+                            },
+                          },
+                        },
+                        "handleClick": [Function],
+                        "props": Object {
+                          "children": "List Views",
+                          "replace": false,
+                          "to": "/list-views",
+                        },
+                        "refs": Object {},
+                        "state": null,
+                        "updater": Object {
+                          "enqueueForceUpdate": [Function],
+                          "enqueueReplaceState": [Function],
+                          "enqueueSetState": [Function],
+                          "isMounted": [Function],
+                        },
+                      },
+                      "tag": 2,
+                      "type": [Function],
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 4,
+                    "internalContextTag": 0,
+                    "key": "4",
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <Link
+                        replace={false}
+                        to="/list-views"
+>
+                        List Views
+</Link>,
+                    },
+                    "memoizedState": null,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 42,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                        "lineNumber": 25,
+                      },
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 55,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                          "lineNumber": 26,
+                        },
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 56,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "internalContextTag": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "Tab Bars",
+                            "href": "/tab-bars",
+                            "onClick": [Function],
+                          },
+                          "memoizedState": null,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <a
+                            href="/tab-bars"
+>
+                            Tab Bars
+</a>,
+                          "tag": 5,
+                          "type": "a",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 1,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "internalContextTag": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Tab Bars",
+                          "replace": false,
+                          "to": "/tab-bars",
+                        },
+                        "memoizedState": null,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": Link {
+                          "__reactInternalMemoizedMaskedChildContext": Object {
+                            "router": Object {
+                              "history": Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              },
+                              "route": Object {
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "match": Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                },
+                              },
+                            },
+                          },
+                          "__reactInternalMemoizedUnmaskedChildContext": Object {
+                            "router": Object {
+                              "history": Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              },
+                              "route": Object {
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "match": Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                },
+                              },
+                            },
+                          },
+                          "_reactInternalFiber": [Circular],
+                          "_reactInternalInstance": Object {},
+                          "context": Object {
+                            "router": Object {
+                              "history": Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              },
+                              "route": Object {
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "match": Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                },
+                              },
+                            },
+                          },
+                          "handleClick": [Function],
+                          "props": Object {
+                            "children": "Tab Bars",
+                            "replace": false,
+                            "to": "/tab-bars",
+                          },
+                          "refs": Object {},
+                          "state": null,
+                          "updater": Object {
+                            "enqueueForceUpdate": [Function],
+                            "enqueueReplaceState": [Function],
+                            "enqueueSetState": [Function],
+                            "isMounted": [Function],
+                          },
+                        },
+                        "tag": 2,
+                        "type": [Function],
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 5,
+                      "internalContextTag": 0,
+                      "key": "5",
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <Link
+                          replace={false}
+                          to="/tab-bars"
+>
+                          Tab Bars
+</Link>,
+                      },
+                      "memoizedState": null,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": FiberNode {
+                        "_debugID": 43,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                          "lineNumber": 25,
+                        },
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 57,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                            "lineNumber": 26,
+                          },
+                          "alternate": null,
+                          "child": FiberNode {
+                            "_debugID": 58,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 0,
+                            "internalContextTag": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "Loader",
+                              "href": "/loader",
+                              "onClick": [Function],
+                            },
+                            "memoizedState": null,
+                            "nextEffect": null,
+                            "pendingProps": null,
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": <a
+                              href="/loader"
+>
+                              Loader
+</a>,
+                            "tag": 5,
+                            "type": "a",
+                            "updateQueue": null,
+                          },
+                          "effectTag": 1,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "internalContextTag": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "Loader",
+                            "replace": false,
+                            "to": "/loader",
+                          },
+                          "memoizedState": null,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": Link {
+                            "__reactInternalMemoizedMaskedChildContext": Object {
+                              "router": Object {
+                                "history": Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                },
+                                "route": Object {
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "match": Object {
+                                    "isExact": true,
+                                    "params": Object {},
+                                    "path": "/",
+                                    "url": "/",
+                                  },
+                                },
+                              },
+                            },
+                            "__reactInternalMemoizedUnmaskedChildContext": Object {
+                              "router": Object {
+                                "history": Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                },
+                                "route": Object {
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "match": Object {
+                                    "isExact": true,
+                                    "params": Object {},
+                                    "path": "/",
+                                    "url": "/",
+                                  },
+                                },
+                              },
+                            },
+                            "_reactInternalFiber": [Circular],
+                            "_reactInternalInstance": Object {},
+                            "context": Object {
+                              "router": Object {
+                                "history": Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                },
+                                "route": Object {
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "match": Object {
+                                    "isExact": true,
+                                    "params": Object {},
+                                    "path": "/",
+                                    "url": "/",
+                                  },
+                                },
+                              },
+                            },
+                            "handleClick": [Function],
+                            "props": Object {
+                              "children": "Loader",
+                              "replace": false,
+                              "to": "/loader",
+                            },
+                            "refs": Object {},
+                            "state": null,
+                            "updater": Object {
+                              "enqueueForceUpdate": [Function],
+                              "enqueueReplaceState": [Function],
+                              "enqueueSetState": [Function],
+                              "isMounted": [Function],
+                            },
+                          },
+                          "tag": 2,
+                          "type": [Function],
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 6,
+                        "internalContextTag": 0,
+                        "key": "6",
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <Link
+                            replace={false}
+                            to="/loader"
+>
+                            Loader
+</Link>,
+                        },
+                        "memoizedState": null,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": FiberNode {
+                          "_debugID": 44,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                            "lineNumber": 25,
+                          },
+                          "alternate": null,
+                          "child": FiberNode {
+                            "_debugID": 59,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": Object {
+                              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                              "lineNumber": 26,
+                            },
+                            "alternate": null,
+                            "child": FiberNode {
+                              "_debugID": 60,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": [Circular],
+                              "_debugSource": null,
+                              "alternate": null,
+                              "child": null,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstEffect": null,
+                              "index": 0,
+                              "internalContextTag": 0,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": Object {
+                                "children": "Demo",
+                                "href": "/demo",
+                                "onClick": [Function],
+                              },
+                              "memoizedState": null,
+                              "nextEffect": null,
+                              "pendingProps": null,
+                              "ref": null,
+                              "return": [Circular],
+                              "sibling": null,
+                              "stateNode": <a
+                                href="/demo"
+>
+                                Demo
+</a>,
+                              "tag": 5,
+                              "type": "a",
+                              "updateQueue": null,
+                            },
+                            "effectTag": 1,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 0,
+                            "internalContextTag": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "Demo",
+                              "replace": false,
+                              "to": "/demo",
+                            },
+                            "memoizedState": null,
+                            "nextEffect": null,
+                            "pendingProps": null,
+                            "ref": null,
+                            "return": [Circular],
+                            "sibling": null,
+                            "stateNode": Link {
+                              "__reactInternalMemoizedMaskedChildContext": Object {
+                                "router": Object {
+                                  "history": Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  },
+                                  "route": Object {
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "match": Object {
+                                      "isExact": true,
+                                      "params": Object {},
+                                      "path": "/",
+                                      "url": "/",
+                                    },
+                                  },
+                                },
+                              },
+                              "__reactInternalMemoizedUnmaskedChildContext": Object {
+                                "router": Object {
+                                  "history": Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  },
+                                  "route": Object {
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "match": Object {
+                                      "isExact": true,
+                                      "params": Object {},
+                                      "path": "/",
+                                      "url": "/",
+                                    },
+                                  },
+                                },
+                              },
+                              "_reactInternalFiber": [Circular],
+                              "_reactInternalInstance": Object {},
+                              "context": Object {
+                                "router": Object {
+                                  "history": Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  },
+                                  "route": Object {
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "match": Object {
+                                      "isExact": true,
+                                      "params": Object {},
+                                      "path": "/",
+                                      "url": "/",
+                                    },
+                                  },
+                                },
+                              },
+                              "handleClick": [Function],
+                              "props": Object {
+                                "children": "Demo",
+                                "replace": false,
+                                "to": "/demo",
+                              },
+                              "refs": Object {},
+                              "state": null,
+                              "updater": Object {
+                                "enqueueForceUpdate": [Function],
+                                "enqueueReplaceState": [Function],
+                                "enqueueSetState": [Function],
+                                "isMounted": [Function],
+                              },
+                            },
+                            "tag": 2,
+                            "type": [Function],
+                            "updateQueue": null,
+                          },
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 7,
+                          "internalContextTag": 0,
+                          "key": "7",
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": <Link
+                              replace={false}
+                              to="/demo"
+>
+                              Demo
+</Link>,
+                          },
+                          "memoizedState": null,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": [Circular],
+                          "sibling": null,
+                          "stateNode": <li>
+                            <a
+                                                        href="/demo"
+                            >
+                                                        Demo
+                            </a>
+</li>,
+                          "tag": 5,
+                          "type": "li",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <li>
+                          <a
+                                                    href="/loader"
+                          >
+                                                    Loader
+                          </a>
+</li>,
+                        "tag": 5,
+                        "type": "li",
+                        "updateQueue": null,
+                      },
                       "stateNode": <li>
                         <a
-                                                href="/demo"
+                                                href="/tab-bars"
                         >
-                                                Demo
+                                                Tab Bars
                         </a>
 </li>,
                       "tag": 5,
@@ -546,9 +1831,9 @@ Sidebar {
                     },
                     "stateNode": <li>
                       <a
-                                            href="/loader"
+                                            href="/list-views"
                       >
-                                            Loader
+                                            List Views
                       </a>
 </li>,
                     "tag": 5,
@@ -557,9 +1842,9 @@ Sidebar {
                   },
                   "stateNode": <li>
                     <a
-                                        href="/tab-bars"
+                                        href="/cards"
                     >
-                                        Tab Bars
+                                        Cards
                     </a>
 </li>,
                   "tag": 5,
@@ -568,9 +1853,9 @@ Sidebar {
                 },
                 "stateNode": <li>
                   <a
-                                    href="/list-views"
+                                    href="/buttons"
                   >
-                                    List Views
+                                    Buttons
                   </a>
 </li>,
                 "tag": 5,
@@ -579,9 +1864,9 @@ Sidebar {
               },
               "stateNode": <li>
                 <a
-                                href="/cards"
+                                href="/bars"
                 >
-                                Cards
+                                Bars
                 </a>
 </li>,
               "tag": 5,
@@ -590,38 +1875,268 @@ Sidebar {
             },
             "stateNode": <li>
               <a
-                            href="/buttons"
+                            href="/alerts"
               >
-                            Buttons
+                            Alerts
               </a>
 </li>,
             "tag": 5,
             "type": "li",
             "updateQueue": null,
           },
-          "stateNode": <li>
-            <a
-                        href="/bars"
-            >
-                        Bars
-            </a>
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "internalContextTag": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <li>
+                <Link
+                                replace={false}
+                                to="/alerts"
+                >
+                                Alerts
+                </Link>
 </li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/bars"
+                >
+                                Bars
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/buttons"
+                >
+                                Buttons
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/cards"
+                >
+                                Cards
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/list-views"
+                >
+                                List Views
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/tab-bars"
+                >
+                                Tab Bars
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/loader"
+                >
+                                Loader
+                </Link>
+</li>,
+              <li>
+                <Link
+                                replace={false}
+                                to="/demo"
+                >
+                                Demo
+                </Link>
+</li>,
+            ],
+            "className": "sidebar",
+          },
+          "memoizedState": null,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <ul
+            class="sidebar"
+>
+            <li>
+                        <a
+                                    href="/alerts"
+                        >
+                                    Alerts
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/bars"
+                        >
+                                    Bars
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/buttons"
+                        >
+                                    Buttons
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/cards"
+                        >
+                                    Cards
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/list-views"
+                        >
+                                    List Views
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/tab-bars"
+                        >
+                                    Tab Bars
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/loader"
+                        >
+                                    Loader
+                        </a>
+            </li>
+            <li>
+                        <a
+                                    href="/demo"
+                        >
+                                    Demo
+                        </a>
+            </li>
+</ul>,
           "tag": 5,
-          "type": "li",
+          "type": "ul",
           "updateQueue": null,
         },
-        "stateNode": <li>
-          <a
-                    href="/alerts"
-          >
-                    Alerts
-          </a>
-</li>,
-        "tag": 5,
-        "type": "li",
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "internalContextTag": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "links": Array [
+            Object {
+              "route": "/alerts",
+              "text": "Alerts",
+            },
+            Object {
+              "route": "/bars",
+              "text": "Bars",
+            },
+            Object {
+              "route": "/buttons",
+              "text": "Buttons",
+            },
+            Object {
+              "route": "/cards",
+              "text": "Cards",
+            },
+            Object {
+              "route": "/list-views",
+              "text": "List Views",
+            },
+            Object {
+              "route": "/tab-bars",
+              "text": "Tab Bars",
+            },
+            Object {
+              "route": "/loader",
+              "text": "Loader",
+            },
+            Object {
+              "route": "/demo",
+              "text": "Demo",
+            },
+          ],
+        },
+        "memoizedState": Object {
+          "active": false,
+        },
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": [Circular],
+        "sibling": null,
+        "stateNode": Sidebar {
+          "_reactInternalFiber": [Circular],
+          "_reactInternalInstance": Object {},
+          "context": Object {},
+          "props": Object {
+            "links": Array [
+              Object {
+                "route": "/alerts",
+                "text": "Alerts",
+              },
+              Object {
+                "route": "/bars",
+                "text": "Bars",
+              },
+              Object {
+                "route": "/buttons",
+                "text": "Buttons",
+              },
+              Object {
+                "route": "/cards",
+                "text": "Cards",
+              },
+              Object {
+                "route": "/list-views",
+                "text": "List Views",
+              },
+              Object {
+                "route": "/tab-bars",
+                "text": "Tab Bars",
+              },
+              Object {
+                "route": "/loader",
+                "text": "Loader",
+              },
+              Object {
+                "route": "/demo",
+                "text": "Demo",
+              },
+            ],
+          },
+          "refs": Object {},
+          "state": Object {
+            "active": false,
+          },
+          "updater": Object {
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+          },
+        },
+        "tag": 2,
+        "type": [Function],
         "updateQueue": null,
       },
-      "effectTag": 0,
+      "effectTag": 1,
       "expirationTime": 0,
       "firstEffect": null,
       "index": 0,
@@ -629,134 +2144,199 @@ Sidebar {
       "key": null,
       "lastEffect": null,
       "memoizedProps": Object {
-        "children": Array [
-          <li>
-            <a
-                        href="/alerts"
-            >
-                        Alerts
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/bars"
-            >
-                        Bars
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/buttons"
-            >
-                        Buttons
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/cards"
-            >
-                        Cards
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/list-views"
-            >
-                        List Views
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/tab-bars"
-            >
-                        Tab Bars
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/loader"
-            >
-                        Loader
-            </a>
-</li>,
-          <li>
-            <a
-                        href="/demo"
-            >
-                        Demo
-            </a>
-</li>,
-        ],
-        "className": "sidebar",
+        "children": <Sidebar
+          links={
+                    Array [
+                              Object {
+                                "route": "/alerts",
+                                "text": "Alerts",
+                              },
+                              Object {
+                                "route": "/bars",
+                                "text": "Bars",
+                              },
+                              Object {
+                                "route": "/buttons",
+                                "text": "Buttons",
+                              },
+                              Object {
+                                "route": "/cards",
+                                "text": "Cards",
+                              },
+                              Object {
+                                "route": "/list-views",
+                                "text": "List Views",
+                              },
+                              Object {
+                                "route": "/tab-bars",
+                                "text": "Tab Bars",
+                              },
+                              Object {
+                                "route": "/loader",
+                                "text": "Loader",
+                              },
+                              Object {
+                                "route": "/demo",
+                                "text": "Demo",
+                              },
+                            ]
+          }
+/>,
+        "history": Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        },
       },
-      "memoizedState": null,
+      "memoizedState": Object {
+        "match": Object {
+          "isExact": true,
+          "params": Object {},
+          "path": "/",
+          "url": "/",
+        },
+      },
       "nextEffect": null,
       "pendingProps": null,
       "ref": null,
       "return": [Circular],
       "sibling": null,
-      "stateNode": <ul
-        class="sidebar"
->
-        <li>
-                <a
-                        href="/alerts"
-                >
-                        Alerts
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/bars"
-                >
-                        Bars
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/buttons"
-                >
-                        Buttons
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/cards"
-                >
-                        Cards
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/list-views"
-                >
-                        List Views
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/tab-bars"
-                >
-                        Tab Bars
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/loader"
-                >
-                        Loader
-                </a>
-        </li>
-        <li>
-                <a
-                        href="/demo"
-                >
-                        Demo
-                </a>
-        </li>
-</ul>,
-      "tag": 5,
-      "type": "ul",
+      "stateNode": Router {
+        "__reactInternalMemoizedMaskedChildContext": Object {
+          "router": undefined,
+        },
+        "__reactInternalMemoizedMergedChildContext": Object {
+          "router": Object {
+            "history": Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            },
+            "route": Object {
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "match": Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              },
+            },
+          },
+        },
+        "__reactInternalMemoizedUnmaskedChildContext": Object {},
+        "_reactInternalFiber": [Circular],
+        "_reactInternalInstance": Object {},
+        "context": Object {
+          "router": undefined,
+        },
+        "props": Object {
+          "children": <Sidebar
+            links={
+                        Array [
+                                    Object {
+                                      "route": "/alerts",
+                                      "text": "Alerts",
+                                    },
+                                    Object {
+                                      "route": "/bars",
+                                      "text": "Bars",
+                                    },
+                                    Object {
+                                      "route": "/buttons",
+                                      "text": "Buttons",
+                                    },
+                                    Object {
+                                      "route": "/cards",
+                                      "text": "Cards",
+                                    },
+                                    Object {
+                                      "route": "/list-views",
+                                      "text": "List Views",
+                                    },
+                                    Object {
+                                      "route": "/tab-bars",
+                                      "text": "Tab Bars",
+                                    },
+                                    Object {
+                                      "route": "/loader",
+                                      "text": "Loader",
+                                    },
+                                    Object {
+                                      "route": "/demo",
+                                      "text": "Demo",
+                                    },
+                                  ]
+            }
+/>,
+          "history": Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "match": Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          },
+        },
+        "unlisten": [Function],
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "tag": 2,
+      "type": [Function],
       "updateQueue": null,
     },
     "effectTag": 1,
@@ -767,54 +2347,56 @@ Sidebar {
     "key": null,
     "lastEffect": null,
     "memoizedProps": Object {
-      "links": Array [
-        Object {
-          "route": "/alerts",
-          "text": "Alerts",
-        },
-        Object {
-          "route": "/bars",
-          "text": "Bars",
-        },
-        Object {
-          "route": "/buttons",
-          "text": "Buttons",
-        },
-        Object {
-          "route": "/cards",
-          "text": "Cards",
-        },
-        Object {
-          "route": "/list-views",
-          "text": "List Views",
-        },
-        Object {
-          "route": "/tab-bars",
-          "text": "Tab Bars",
-        },
-        Object {
-          "route": "/loader",
-          "text": "Loader",
-        },
-        Object {
-          "route": "/demo",
-          "text": "Demo",
-        },
-      ],
+      "children": <Sidebar
+        links={
+                Array [
+                        Object {
+                          "route": "/alerts",
+                          "text": "Alerts",
+                        },
+                        Object {
+                          "route": "/bars",
+                          "text": "Bars",
+                        },
+                        Object {
+                          "route": "/buttons",
+                          "text": "Buttons",
+                        },
+                        Object {
+                          "route": "/cards",
+                          "text": "Cards",
+                        },
+                        Object {
+                          "route": "/list-views",
+                          "text": "List Views",
+                        },
+                        Object {
+                          "route": "/tab-bars",
+                          "text": "Tab Bars",
+                        },
+                        Object {
+                          "route": "/loader",
+                          "text": "Loader",
+                        },
+                        Object {
+                          "route": "/demo",
+                          "text": "Demo",
+                        },
+                      ]
+        }
+/>,
     },
-    "memoizedState": Object {
-      "active": false,
-    },
+    "memoizedState": null,
     "nextEffect": null,
     "pendingProps": null,
     "ref": null,
     "return": FiberNode {
-      "_debugID": 21,
+      "_debugID": 31,
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": null,
       "_debugSource": null,
       "alternate": FiberNode {
-        "_debugID": 21,
+        "_debugID": 31,
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": null,
         "_debugSource": null,
@@ -921,44 +2503,46 @@ Sidebar {
             "next": null,
             "nextCallback": null,
             "partialState": Object {
-              "element": <Sidebar
-                links={
-                                Array [
-                                                Object {
-                                                  "route": "/alerts",
-                                                  "text": "Alerts",
-                                                },
-                                                Object {
-                                                  "route": "/bars",
-                                                  "text": "Bars",
-                                                },
-                                                Object {
-                                                  "route": "/buttons",
-                                                  "text": "Buttons",
-                                                },
-                                                Object {
-                                                  "route": "/cards",
-                                                  "text": "Cards",
-                                                },
-                                                Object {
-                                                  "route": "/list-views",
-                                                  "text": "List Views",
-                                                },
-                                                Object {
-                                                  "route": "/tab-bars",
-                                                  "text": "Tab Bars",
-                                                },
-                                                Object {
-                                                  "route": "/loader",
-                                                  "text": "Loader",
-                                                },
-                                                Object {
-                                                  "route": "/demo",
-                                                  "text": "Demo",
-                                                },
-                                              ]
-                }
-/>,
+              "element": <BrowserRouter>
+                <Sidebar
+                                links={
+                                                Array [
+                                                                Object {
+                                                                  "route": "/alerts",
+                                                                  "text": "Alerts",
+                                                                },
+                                                                Object {
+                                                                  "route": "/bars",
+                                                                  "text": "Bars",
+                                                                },
+                                                                Object {
+                                                                  "route": "/buttons",
+                                                                  "text": "Buttons",
+                                                                },
+                                                                Object {
+                                                                  "route": "/cards",
+                                                                  "text": "Cards",
+                                                                },
+                                                                Object {
+                                                                  "route": "/list-views",
+                                                                  "text": "List Views",
+                                                                },
+                                                                Object {
+                                                                  "route": "/tab-bars",
+                                                                  "text": "Tab Bars",
+                                                                },
+                                                                Object {
+                                                                  "route": "/loader",
+                                                                  "text": "Loader",
+                                                                },
+                                                                Object {
+                                                                  "route": "/demo",
+                                                                  "text": "Demo",
+                                                                },
+                                                              ]
+                                }
+                />
+</BrowserRouter>,
             },
           },
           "hasForceUpdate": false,
@@ -972,44 +2556,46 @@ Sidebar {
             "next": null,
             "nextCallback": null,
             "partialState": Object {
-              "element": <Sidebar
-                links={
-                                Array [
-                                                Object {
-                                                  "route": "/alerts",
-                                                  "text": "Alerts",
-                                                },
-                                                Object {
-                                                  "route": "/bars",
-                                                  "text": "Bars",
-                                                },
-                                                Object {
-                                                  "route": "/buttons",
-                                                  "text": "Buttons",
-                                                },
-                                                Object {
-                                                  "route": "/cards",
-                                                  "text": "Cards",
-                                                },
-                                                Object {
-                                                  "route": "/list-views",
-                                                  "text": "List Views",
-                                                },
-                                                Object {
-                                                  "route": "/tab-bars",
-                                                  "text": "Tab Bars",
-                                                },
-                                                Object {
-                                                  "route": "/loader",
-                                                  "text": "Loader",
-                                                },
-                                                Object {
-                                                  "route": "/demo",
-                                                  "text": "Demo",
-                                                },
-                                              ]
-                }
-/>,
+              "element": <BrowserRouter>
+                <Sidebar
+                                links={
+                                                Array [
+                                                                Object {
+                                                                  "route": "/alerts",
+                                                                  "text": "Alerts",
+                                                                },
+                                                                Object {
+                                                                  "route": "/bars",
+                                                                  "text": "Bars",
+                                                                },
+                                                                Object {
+                                                                  "route": "/buttons",
+                                                                  "text": "Buttons",
+                                                                },
+                                                                Object {
+                                                                  "route": "/cards",
+                                                                  "text": "Cards",
+                                                                },
+                                                                Object {
+                                                                  "route": "/list-views",
+                                                                  "text": "List Views",
+                                                                },
+                                                                Object {
+                                                                  "route": "/tab-bars",
+                                                                  "text": "Tab Bars",
+                                                                },
+                                                                Object {
+                                                                  "route": "/loader",
+                                                                  "text": "Loader",
+                                                                },
+                                                                Object {
+                                                                  "route": "/demo",
+                                                                  "text": "Demo",
+                                                                },
+                                                              ]
+                                }
+                />
+</BrowserRouter>,
             },
           },
         },
@@ -1024,44 +2610,46 @@ Sidebar {
       "lastEffect": [Circular],
       "memoizedProps": null,
       "memoizedState": Object {
-        "element": <Sidebar
-          links={
-                    Array [
-                              Object {
-                                "route": "/alerts",
-                                "text": "Alerts",
-                              },
-                              Object {
-                                "route": "/bars",
-                                "text": "Bars",
-                              },
-                              Object {
-                                "route": "/buttons",
-                                "text": "Buttons",
-                              },
-                              Object {
-                                "route": "/cards",
-                                "text": "Cards",
-                              },
-                              Object {
-                                "route": "/list-views",
-                                "text": "List Views",
-                              },
-                              Object {
-                                "route": "/tab-bars",
-                                "text": "Tab Bars",
-                              },
-                              Object {
-                                "route": "/loader",
-                                "text": "Loader",
-                              },
-                              Object {
-                                "route": "/demo",
-                                "text": "Demo",
-                              },
-                            ]
-          }
-/>,
+        "element": <BrowserRouter>
+          <Sidebar
+                    links={
+                              Array [
+                                        Object {
+                                          "route": "/alerts",
+                                          "text": "Alerts",
+                                        },
+                                        Object {
+                                          "route": "/bars",
+                                          "text": "Bars",
+                                        },
+                                        Object {
+                                          "route": "/buttons",
+                                          "text": "Buttons",
+                                        },
+                                        Object {
+                                          "route": "/cards",
+                                          "text": "Cards",
+                                        },
+                                        Object {
+                                          "route": "/list-views",
+                                          "text": "List Views",
+                                        },
+                                        Object {
+                                          "route": "/tab-bars",
+                                          "text": "Tab Bars",
+                                        },
+                                        Object {
+                                          "route": "/loader",
+                                          "text": "Loader",
+                                        },
+                                        Object {
+                                          "route": "/demo",
+                                          "text": "Demo",
+                                        },
+                                      ]
+                    }
+          />
+</BrowserRouter>,
       },
       "nextEffect": null,
       "pendingProps": null,
@@ -1153,46 +2741,66 @@ Sidebar {
   },
   "_reactInternalInstance": Object {},
   "context": Object {},
+  "history": Object {
+    "action": "POP",
+    "block": [Function],
+    "createHref": [Function],
+    "go": [Function],
+    "goBack": [Function],
+    "goForward": [Function],
+    "length": 1,
+    "listen": [Function],
+    "location": Object {
+      "hash": "",
+      "pathname": "/",
+      "search": "",
+      "state": undefined,
+    },
+    "push": [Function],
+    "replace": [Function],
+  },
   "props": Object {
-    "links": Array [
-      Object {
-        "route": "/alerts",
-        "text": "Alerts",
-      },
-      Object {
-        "route": "/bars",
-        "text": "Bars",
-      },
-      Object {
-        "route": "/buttons",
-        "text": "Buttons",
-      },
-      Object {
-        "route": "/cards",
-        "text": "Cards",
-      },
-      Object {
-        "route": "/list-views",
-        "text": "List Views",
-      },
-      Object {
-        "route": "/tab-bars",
-        "text": "Tab Bars",
-      },
-      Object {
-        "route": "/loader",
-        "text": "Loader",
-      },
-      Object {
-        "route": "/demo",
-        "text": "Demo",
-      },
-    ],
+    "children": <Sidebar
+      links={
+            Array [
+                  Object {
+                    "route": "/alerts",
+                    "text": "Alerts",
+                  },
+                  Object {
+                    "route": "/bars",
+                    "text": "Bars",
+                  },
+                  Object {
+                    "route": "/buttons",
+                    "text": "Buttons",
+                  },
+                  Object {
+                    "route": "/cards",
+                    "text": "Cards",
+                  },
+                  Object {
+                    "route": "/list-views",
+                    "text": "List Views",
+                  },
+                  Object {
+                    "route": "/tab-bars",
+                    "text": "Tab Bars",
+                  },
+                  Object {
+                    "route": "/loader",
+                    "text": "Loader",
+                  },
+                  Object {
+                    "route": "/demo",
+                    "text": "Demo",
+                  },
+                ]
+      }
+/>,
   },
   "refs": Object {},
-  "state": Object {
-    "active": false,
-  },
+  "state": null,
   "updater": Object {
     "enqueueForceUpdate": [Function],
     "enqueueReplaceState": [Function],
