@@ -17,7 +17,7 @@ Button {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Button.js",
-        "lineNumber": 33,
+        "lineNumber": 34,
       },
       "alternate": null,
       "child": null,
@@ -31,6 +31,7 @@ Button {
       "memoizedProps": Object {
         "children": undefined,
         "className": undefined,
+        "onClick": undefined,
       },
       "memoizedState": null,
       "nextEffect": null,

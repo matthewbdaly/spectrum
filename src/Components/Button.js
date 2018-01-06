@@ -7,7 +7,8 @@ type Props = {
   theme: string,
   inverse: boolean,
   block: boolean,
-  children?: Node
+  children?: Node,
+  clickHandler?: () => void
 };
 
 type State = {
@@ -30,7 +31,7 @@ class Button extends Component<Props, State> {
   }
   render() {
     return (
-      <button className={this.state.theme}>{this.props.children}</button>
+      <button className={this.state.theme} onClick={this.props.clickHandler}>{this.props.children}</button>
     );
   }
 }
