@@ -293,12 +293,24 @@ class App extends Component<Props, State> {
       sidebarActive: false
     };
   }
+  toggleSidebar() {
+    if (this.state.sidebarActive) {
+      this.setState({
+        sidebarActive: false
+      });
+    } else {
+      this.setState({
+        sidebarActive: true
+      });
+    }
+  }
   render() {
     return (
       <Router>
         <div className="App">
           <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
           </Sidebar>
+          <Button block="true" theme="main" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>Toggle the sidebar</Button>
           <Route exact path="/" component={IndexPage} />
           <Route exact path="/alerts" component={AlertPage} />
           <Route exact path="/bars" component={BarPage} />
