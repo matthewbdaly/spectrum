@@ -1,10 +1,10 @@
 // @flow
 import React, { Component } from 'react';
-import type { Node } from 'react';
+import { Link } from 'react-router-dom';
 import './Sidebar.scss';
 
 type Props = {
-  children?: Node,
+  links: array,
   active: boolean
 };
 
@@ -20,10 +20,17 @@ class Sidebar extends Component<Props, State> {
     };
   }
   render() {
+    let linkNodes = this.props.links.map((item, index) => {
+      return (
+        <li>
+          <Link to={item.route} key={index}>{item.text}</Link>
+        </li>
+      );
+    });
     return (
-      <div className={ 'sidebar' + (this.state.active ? ' active' : '') }>
-        {this.props.children}
-      </div>
+      <ul className={ 'sidebar' + (this.state.active ? ' active' : '') }>
+        {linkNodes}
+      </ul>
     );
   }
 }

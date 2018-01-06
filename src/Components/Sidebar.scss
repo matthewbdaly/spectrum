@@ -8,17 +8,24 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
-    padding-top: 60px;
+    margin: 0;
+    padding: 0;
     transition: 0.5s;
+    background-color: $background;
 
     &.active {
         width: 250px;
     }
 
-    a {
+    li {
         list-style-type: none;
         width: 100%;
-        border: 1px solid lightgray;
-        padding: 20px;
+
+        a {
+            border: 1px solid lightgray;
+            padding: 20px;
+            text-decoration: none;
+            display: block;
+        }
     }
 }

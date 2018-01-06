@@ -18,6 +18,32 @@ import {
 } from 'react-router-dom';
 import './App.scss';
 
+const sidebarlinks = [{
+  route: "/alerts",
+  text: "Alerts"
+}, {
+  route: "/bars",
+  text: "Bars"
+}, {
+  route: "/buttons",
+  text: "Buttons"
+}, {
+  route: "/cards",
+  text: "Cards"
+}, {
+  route: "/list-views",
+  text: "List Views"
+}, {
+  route: "/tab-bars",
+  text: "Tab Bars"
+}, {
+  route: "/loader",
+  text: "Loader"
+}, {
+  route: "/demo",
+  text: "Demo"
+}];
+
 class AlertPage extends Component {
   render() {
     return (
@@ -200,15 +226,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
-        <Sidebar>
-          <Link to="/alerts">Alerts</Link>
-          <Link to="/bars">Bars</Link>
-          <Link to="/buttons">Buttons</Link>
-          <Link to="/cards">Cards</Link>
-          <Link to="/tab-bars">Tab Bars</Link>
-          <Link to="/list-views">List Views</Link>
-          <Link to="/loader">Loader</Link>
-          <Link to="/demo">Demo</Link>
+        <Sidebar links={sidebarlinks}>
         </Sidebar>
         <Bar theme="main">
           <Button theme="main">
