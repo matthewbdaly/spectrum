@@ -54,6 +54,7 @@ class IndexPage extends Component {
           Spectrum
         </Bar>
         <p>A React component library for use with Phonegap applications.</p>
+        <p>These components are thoroughly tested, including snapshot tests, and are thoroughly typed using Flow.</p>
       </div>
     );
   }
