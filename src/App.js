@@ -278,12 +278,26 @@ class Demo extends Component {
   }
 }
 
-class App extends Component {
+type Props = {
+  sidebarActive: boolean
+};
+
+type State = {
+  sidebarActive: boolean
+};
+
+class App extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
+    this.state = {
+      sidebarActive: false
+    };
+  }
   render() {
     return (
       <Router>
         <div className="App">
-          <Sidebar links={sidebarlinks}>
+          <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
           </Sidebar>
           <Route exact path="/" component={IndexPage} />
           <Route exact path="/alerts" component={AlertPage} />

@@ -13,17 +13,7 @@ type Props = {
   active: boolean
 };
 
-type State = {
-  active: boolean
-};
-
-class Sidebar extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-      active: this.props.active ? true : false
-    };
-  }
+class Sidebar extends Component<Props> {
   render() {
     let linkNodes = this.props.links.map((item, index) => {
       return (
@@ -33,7 +23,7 @@ class Sidebar extends Component<Props, State> {
       );
     });
     return (
-      <ul className={ 'sidebar' + (this.state.active ? ' active' : '') }>
+      <ul className={ 'sidebar' + (this.props.active ? ' active' : '') }>
         {linkNodes}
       </ul>
     );
