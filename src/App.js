@@ -291,15 +291,9 @@ class App extends Component<Props, State> {
     };
   }
   toggleSidebar() {
-    if (this.state.sidebarActive) {
-      this.setState({
-        sidebarActive: false
-      });
-    } else {
-      this.setState({
-        sidebarActive: true
-      });
-    }
+    this.setState({
+      sidebarActive: !this.state.sidebarActive
+    });
   }
   render() {
     return (
