@@ -3,8 +3,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.scss';
 
+type LinkItem = {
+  route: string,
+  text: string
+};
+
 type Props = {
-  links: array,
+  links: Array<LinkItem>,
   active: boolean
 };
 

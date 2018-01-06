@@ -43,6 +43,17 @@ const sidebarlinks = [{
   text: "Demo"
 }];
 
+class IndexPage extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Spectrum</h1>
+        <p>A React component library for use with Phonegap applications.</p>
+      </div>
+    );
+  }
+}
+
 class AlertPage extends Component {
   render() {
     return (
@@ -268,6 +279,7 @@ class App extends Component {
         <div className="App">
           <Sidebar links={sidebarlinks}>
           </Sidebar>
+          <Route exact path="/" component={IndexPage} />
           <Route exact path="/alerts" component={AlertPage} />
           <Route exact path="/bars" component={BarPage} />
           <Route exact path="/buttons" component={ButtonPage} />
