@@ -257,7 +257,10 @@ class Demo extends Component {
         <Button block="true" theme="positive" inverse="true">I like this</Button>
         <Button block="true" theme="negative" inverse="true">I don't like this</Button>
         <TextInput>Your comment</TextInput>
-				<Toggle checked={true} />
+				<Toggle theme="" checked={true} />
+				<Toggle theme="main" checked={true} />
+				<Toggle theme="positive" checked={true} />
+				<Toggle theme="negative" checked={true} />
         <TabBar>
           <TabBarItem active="true">
             <i className="fas fa-home"></i>

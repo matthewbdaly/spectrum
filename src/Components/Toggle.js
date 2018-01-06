@@ -3,18 +3,21 @@ import React, { Component } from 'react';
 import './Toggle.scss';
 
 type Props = {
+  theme: string,
   checked: boolean
 };
 
 type State = {
-  checked: boolean
+  checked: boolean,
+  theme: string
 };
 
 class Toggle extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      checked: this.props.checked
+      checked: this.props.checked,
+      theme: this.props.theme ? 'toggle ' + this.props.theme : 'toggle'
     };
   }
   update = () => {
@@ -24,7 +27,7 @@ class Toggle extends Component<Props, State> {
   }
   render() {
     return (
-      <label className="toggle" onChange={this.update}>
+      <label className={this.state.theme} onChange={this.update}>
         <input type="checkbox" checked={this.state.checked} />
         <span className="slider"></span>
       </label>

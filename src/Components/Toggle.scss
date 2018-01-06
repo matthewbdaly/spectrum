@@ -1,3 +1,5 @@
+@import "../variables";
+
 .toggle {
 	position: relative;
 	display: inline-block;
@@ -35,7 +37,19 @@
 	}
 
 	input:checked + .slider {
-		background-color: #2196F3;
+		background-color: $foreground;
+	}
+
+	&.main input:checked + .slider {
+		background-color: $theme-main;
+	}
+
+	&.positive input:checked + .slider {
+		background-color: $theme-positive;
+	}
+
+	&.negative input:checked + .slider {
+		background-color: $theme-negative;
 	}
 
 	input:focus + .slider {
