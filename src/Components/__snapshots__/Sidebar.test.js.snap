@@ -3,24 +3,624 @@
 exports[`should match the snapshot 1`] = `
 Sidebar {
   "_reactInternalFiber": FiberNode {
-    "_debugID": 7,
+    "_debugID": 23,
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
       "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.test.js",
-      "lineNumber": 12,
+      "lineNumber": 38,
     },
     "alternate": null,
     "child": FiberNode {
-      "_debugID": 8,
+      "_debugID": 24,
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
-        "lineNumber": 24,
+        "lineNumber": 30,
       },
       "alternate": null,
-      "child": null,
+      "child": FiberNode {
+        "_debugID": 25,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": Object {
+          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+          "lineNumber": 24,
+        },
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 33,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+            "lineNumber": 25,
+          },
+          "alternate": null,
+          "child": null,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "internalContextTag": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": "Alerts",
+            "href": "/alerts",
+          },
+          "memoizedState": null,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <a
+            href="/alerts"
+>
+            Alerts
+</a>,
+          "tag": 5,
+          "type": "a",
+          "updateQueue": null,
+        },
+        "effectTag": 0,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "internalContextTag": 0,
+        "key": "0",
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": <a
+            href="/alerts"
+>
+            Alerts
+</a>,
+        },
+        "memoizedState": null,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": [Circular],
+        "sibling": FiberNode {
+          "_debugID": 26,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+            "lineNumber": 24,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 34,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+              "lineNumber": 25,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "internalContextTag": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "Bars",
+              "href": "/bars",
+            },
+            "memoizedState": null,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <a
+              href="/bars"
+>
+              Bars
+</a>,
+            "tag": 5,
+            "type": "a",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "internalContextTag": 0,
+          "key": "1",
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": <a
+              href="/bars"
+>
+              Bars
+</a>,
+          },
+          "memoizedState": null,
+          "nextEffect": null,
+          "pendingProps": null,
+          "ref": null,
+          "return": [Circular],
+          "sibling": FiberNode {
+            "_debugID": 27,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+              "lineNumber": 24,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 35,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                "lineNumber": 25,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "internalContextTag": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Buttons",
+                "href": "/buttons",
+              },
+              "memoizedState": null,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": <a
+                href="/buttons"
+>
+                Buttons
+</a>,
+              "tag": 5,
+              "type": "a",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 2,
+            "internalContextTag": 0,
+            "key": "2",
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <a
+                href="/buttons"
+>
+                Buttons
+</a>,
+            },
+            "memoizedState": null,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 28,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                "lineNumber": 24,
+              },
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 36,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                  "lineNumber": 25,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "internalContextTag": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Cards",
+                  "href": "/cards",
+                },
+                "memoizedState": null,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <a
+                  href="/cards"
+>
+                  Cards
+</a>,
+                "tag": 5,
+                "type": "a",
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 3,
+              "internalContextTag": 0,
+              "key": "3",
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <a
+                  href="/cards"
+>
+                  Cards
+</a>,
+              },
+              "memoizedState": null,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 29,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                  "lineNumber": 24,
+                },
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 37,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                    "lineNumber": 25,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "internalContextTag": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "List Views",
+                    "href": "/list-views",
+                  },
+                  "memoizedState": null,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <a
+                    href="/list-views"
+>
+                    List Views
+</a>,
+                  "tag": 5,
+                  "type": "a",
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 4,
+                "internalContextTag": 0,
+                "key": "4",
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <a
+                    href="/list-views"
+>
+                    List Views
+</a>,
+                },
+                "memoizedState": null,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 30,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                    "lineNumber": 24,
+                  },
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 38,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                      "lineNumber": 25,
+                    },
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "internalContextTag": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Tab Bars",
+                      "href": "/tab-bars",
+                    },
+                    "memoizedState": null,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": null,
+                    "stateNode": <a
+                      href="/tab-bars"
+>
+                      Tab Bars
+</a>,
+                    "tag": 5,
+                    "type": "a",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 5,
+                  "internalContextTag": 0,
+                  "key": "5",
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <a
+                      href="/tab-bars"
+>
+                      Tab Bars
+</a>,
+                  },
+                  "memoizedState": null,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": FiberNode {
+                    "_debugID": 31,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                      "lineNumber": 24,
+                    },
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 39,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                        "lineNumber": 25,
+                      },
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "internalContextTag": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Loader",
+                        "href": "/loader",
+                      },
+                      "memoizedState": null,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <a
+                        href="/loader"
+>
+                        Loader
+</a>,
+                      "tag": 5,
+                      "type": "a",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 6,
+                    "internalContextTag": 0,
+                    "key": "6",
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <a
+                        href="/loader"
+>
+                        Loader
+</a>,
+                    },
+                    "memoizedState": null,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": [Circular],
+                    "sibling": FiberNode {
+                      "_debugID": 32,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                        "lineNumber": 24,
+                      },
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 40,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                          "lineNumber": 25,
+                        },
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "internalContextTag": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Demo",
+                          "href": "/demo",
+                        },
+                        "memoizedState": null,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": [Circular],
+                        "sibling": null,
+                        "stateNode": <a
+                          href="/demo"
+>
+                          Demo
+</a>,
+                        "tag": 5,
+                        "type": "a",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 7,
+                      "internalContextTag": 0,
+                      "key": "7",
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <a
+                          href="/demo"
+>
+                          Demo
+</a>,
+                      },
+                      "memoizedState": null,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": [Circular],
+                      "sibling": null,
+                      "stateNode": <li>
+                        <a
+                                                href="/demo"
+                        >
+                                                Demo
+                        </a>
+</li>,
+                      "tag": 5,
+                      "type": "li",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <li>
+                      <a
+                                            href="/loader"
+                      >
+                                            Loader
+                      </a>
+</li>,
+                    "tag": 5,
+                    "type": "li",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <li>
+                    <a
+                                        href="/tab-bars"
+                    >
+                                        Tab Bars
+                    </a>
+</li>,
+                  "tag": 5,
+                  "type": "li",
+                  "updateQueue": null,
+                },
+                "stateNode": <li>
+                  <a
+                                    href="/list-views"
+                  >
+                                    List Views
+                  </a>
+</li>,
+                "tag": 5,
+                "type": "li",
+                "updateQueue": null,
+              },
+              "stateNode": <li>
+                <a
+                                href="/cards"
+                >
+                                Cards
+                </a>
+</li>,
+              "tag": 5,
+              "type": "li",
+              "updateQueue": null,
+            },
+            "stateNode": <li>
+              <a
+                            href="/buttons"
+              >
+                            Buttons
+              </a>
+</li>,
+            "tag": 5,
+            "type": "li",
+            "updateQueue": null,
+          },
+          "stateNode": <li>
+            <a
+                        href="/bars"
+            >
+                        Bars
+            </a>
+</li>,
+          "tag": 5,
+          "type": "li",
+          "updateQueue": null,
+        },
+        "stateNode": <li>
+          <a
+                    href="/alerts"
+          >
+                    Alerts
+          </a>
+</li>,
+        "tag": 5,
+        "type": "li",
+        "updateQueue": null,
+      },
       "effectTag": 0,
       "expirationTime": 0,
       "firstEffect": null,
@@ -29,7 +629,64 @@ Sidebar {
       "key": null,
       "lastEffect": null,
       "memoizedProps": Object {
-        "children": undefined,
+        "children": Array [
+          <li>
+            <a
+                        href="/alerts"
+            >
+                        Alerts
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/bars"
+            >
+                        Bars
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/buttons"
+            >
+                        Buttons
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/cards"
+            >
+                        Cards
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/list-views"
+            >
+                        List Views
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/tab-bars"
+            >
+                        Tab Bars
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/loader"
+            >
+                        Loader
+            </a>
+</li>,
+          <li>
+            <a
+                        href="/demo"
+            >
+                        Demo
+            </a>
+</li>,
+        ],
         "className": "sidebar",
       },
       "memoizedState": null,
@@ -38,11 +695,68 @@ Sidebar {
       "ref": null,
       "return": [Circular],
       "sibling": null,
-      "stateNode": <div
+      "stateNode": <ul
         class="sidebar"
-/>,
+>
+        <li>
+                <a
+                        href="/alerts"
+                >
+                        Alerts
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/bars"
+                >
+                        Bars
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/buttons"
+                >
+                        Buttons
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/cards"
+                >
+                        Cards
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/list-views"
+                >
+                        List Views
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/tab-bars"
+                >
+                        Tab Bars
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/loader"
+                >
+                        Loader
+                </a>
+        </li>
+        <li>
+                <a
+                        href="/demo"
+                >
+                        Demo
+                </a>
+        </li>
+</ul>,
       "tag": 5,
-      "type": "div",
+      "type": "ul",
       "updateQueue": null,
     },
     "effectTag": 1,
@@ -52,20 +766,55 @@ Sidebar {
     "internalContextTag": 0,
     "key": null,
     "lastEffect": null,
-    "memoizedProps": Object {},
+    "memoizedProps": Object {
+      "links": Array [
+        Object {
+          "route": "/alerts",
+          "text": "Alerts",
+        },
+        Object {
+          "route": "/bars",
+          "text": "Bars",
+        },
+        Object {
+          "route": "/buttons",
+          "text": "Buttons",
+        },
+        Object {
+          "route": "/cards",
+          "text": "Cards",
+        },
+        Object {
+          "route": "/list-views",
+          "text": "List Views",
+        },
+        Object {
+          "route": "/tab-bars",
+          "text": "Tab Bars",
+        },
+        Object {
+          "route": "/loader",
+          "text": "Loader",
+        },
+        Object {
+          "route": "/demo",
+          "text": "Demo",
+        },
+      ],
+    },
     "memoizedState": Object {
-      "active": undefined,
+      "active": false,
     },
     "nextEffect": null,
     "pendingProps": null,
     "ref": null,
     "return": FiberNode {
-      "_debugID": 5,
+      "_debugID": 21,
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": null,
       "_debugSource": null,
       "alternate": FiberNode {
-        "_debugID": 5,
+        "_debugID": 21,
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": null,
         "_debugSource": null,
@@ -87,9 +836,66 @@ Sidebar {
         "sibling": null,
         "stateNode": Object {
           "containerInfo": <div>
-            <div
+            <ul
                         class="sidebar"
-            />
+            >
+                        <li>
+                                    <a
+                                                href="/alerts"
+                                    >
+                                                Alerts
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/bars"
+                                    >
+                                                Bars
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/buttons"
+                                    >
+                                                Buttons
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/cards"
+                                    >
+                                                Cards
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/list-views"
+                                    >
+                                                List Views
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/tab-bars"
+                                    >
+                                                Tab Bars
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/loader"
+                                    >
+                                                Loader
+                                    </a>
+                        </li>
+                        <li>
+                                    <a
+                                                href="/demo"
+                                    >
+                                                Demo
+                                    </a>
+                        </li>
+            </ul>
 </div>,
           "context": Object {},
           "current": [Circular],
@@ -115,7 +921,44 @@ Sidebar {
             "next": null,
             "nextCallback": null,
             "partialState": Object {
-              "element": <Sidebar />,
+              "element": <Sidebar
+                links={
+                                Array [
+                                                Object {
+                                                  "route": "/alerts",
+                                                  "text": "Alerts",
+                                                },
+                                                Object {
+                                                  "route": "/bars",
+                                                  "text": "Bars",
+                                                },
+                                                Object {
+                                                  "route": "/buttons",
+                                                  "text": "Buttons",
+                                                },
+                                                Object {
+                                                  "route": "/cards",
+                                                  "text": "Cards",
+                                                },
+                                                Object {
+                                                  "route": "/list-views",
+                                                  "text": "List Views",
+                                                },
+                                                Object {
+                                                  "route": "/tab-bars",
+                                                  "text": "Tab Bars",
+                                                },
+                                                Object {
+                                                  "route": "/loader",
+                                                  "text": "Loader",
+                                                },
+                                                Object {
+                                                  "route": "/demo",
+                                                  "text": "Demo",
+                                                },
+                                              ]
+                }
+/>,
             },
           },
           "hasForceUpdate": false,
@@ -129,7 +972,44 @@ Sidebar {
             "next": null,
             "nextCallback": null,
             "partialState": Object {
-              "element": <Sidebar />,
+              "element": <Sidebar
+                links={
+                                Array [
+                                                Object {
+                                                  "route": "/alerts",
+                                                  "text": "Alerts",
+                                                },
+                                                Object {
+                                                  "route": "/bars",
+                                                  "text": "Bars",
+                                                },
+                                                Object {
+                                                  "route": "/buttons",
+                                                  "text": "Buttons",
+                                                },
+                                                Object {
+                                                  "route": "/cards",
+                                                  "text": "Cards",
+                                                },
+                                                Object {
+                                                  "route": "/list-views",
+                                                  "text": "List Views",
+                                                },
+                                                Object {
+                                                  "route": "/tab-bars",
+                                                  "text": "Tab Bars",
+                                                },
+                                                Object {
+                                                  "route": "/loader",
+                                                  "text": "Loader",
+                                                },
+                                                Object {
+                                                  "route": "/demo",
+                                                  "text": "Demo",
+                                                },
+                                              ]
+                }
+/>,
             },
           },
         },
@@ -144,7 +1024,44 @@ Sidebar {
       "lastEffect": [Circular],
       "memoizedProps": null,
       "memoizedState": Object {
-        "element": <Sidebar />,
+        "element": <Sidebar
+          links={
+                    Array [
+                              Object {
+                                "route": "/alerts",
+                                "text": "Alerts",
+                              },
+                              Object {
+                                "route": "/bars",
+                                "text": "Bars",
+                              },
+                              Object {
+                                "route": "/buttons",
+                                "text": "Buttons",
+                              },
+                              Object {
+                                "route": "/cards",
+                                "text": "Cards",
+                              },
+                              Object {
+                                "route": "/list-views",
+                                "text": "List Views",
+                              },
+                              Object {
+                                "route": "/tab-bars",
+                                "text": "Tab Bars",
+                              },
+                              Object {
+                                "route": "/loader",
+                                "text": "Loader",
+                              },
+                              Object {
+                                "route": "/demo",
+                                "text": "Demo",
+                              },
+                            ]
+          }
+/>,
       },
       "nextEffect": null,
       "pendingProps": null,
@@ -153,9 +1070,66 @@ Sidebar {
       "sibling": null,
       "stateNode": Object {
         "containerInfo": <div>
-          <div
+          <ul
                     class="sidebar"
-          />
+          >
+                    <li>
+                              <a
+                                        href="/alerts"
+                              >
+                                        Alerts
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/bars"
+                              >
+                                        Bars
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/buttons"
+                              >
+                                        Buttons
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/cards"
+                              >
+                                        Cards
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/list-views"
+                              >
+                                        List Views
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/tab-bars"
+                              >
+                                        Tab Bars
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/loader"
+                              >
+                                        Loader
+                              </a>
+                    </li>
+                    <li>
+                              <a
+                                        href="/demo"
+                              >
+                                        Demo
+                              </a>
+                    </li>
+          </ul>
 </div>,
         "context": Object {},
         "current": [Circular],
@@ -179,10 +1153,45 @@ Sidebar {
   },
   "_reactInternalInstance": Object {},
   "context": Object {},
-  "props": Object {},
+  "props": Object {
+    "links": Array [
+      Object {
+        "route": "/alerts",
+        "text": "Alerts",
+      },
+      Object {
+        "route": "/bars",
+        "text": "Bars",
+      },
+      Object {
+        "route": "/buttons",
+        "text": "Buttons",
+      },
+      Object {
+        "route": "/cards",
+        "text": "Cards",
+      },
+      Object {
+        "route": "/list-views",
+        "text": "List Views",
+      },
+      Object {
+        "route": "/tab-bars",
+        "text": "Tab Bars",
+      },
+      Object {
+        "route": "/loader",
+        "text": "Loader",
+      },
+      Object {
+        "route": "/demo",
+        "text": "Demo",
+      },
+    ],
+  },
   "refs": Object {},
   "state": Object {
-    "active": undefined,
+    "active": false,
   },
   "updater": Object {
     "enqueueForceUpdate": [Function],

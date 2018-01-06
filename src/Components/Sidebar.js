@@ -22,8 +22,8 @@ class Sidebar extends Component<Props, State> {
   render() {
     let linkNodes = this.props.links.map((item, index) => {
       return (
-        <li>
-          <Link to={item.route} key={index}>{item.text}</Link>
+        <li key={index}>
+          <Link to={item.route}>{item.text}</Link>
         </li>
       );
     });
