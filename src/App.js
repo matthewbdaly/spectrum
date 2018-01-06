@@ -228,30 +228,32 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Link to="/alerts">
-            <Button theme="main">Alerts</Button>
-          </Link>
-          <Link to="/bars">
-            <Button theme="main">Bars</Button>
-          </Link>
-          <Link to="/buttons">
-            <Button theme="main">Buttons</Button>
-          </Link>
-          <Link to="/cards">
-            <Button theme="main">Cards</Button>
-          </Link>
-          <Link to="/tab-bars">
-            <Button theme="main">Tab Bars</Button>
-          </Link>
-          <Link to="/list-views">
-            <Button theme="main">List Views</Button>
-          </Link>
-          <Link to="/loader">
-            <Button theme="main">Loader</Button>
-          </Link>
-          <Link to="/demo">
-            <Button theme="main">Demo</Button>
-          </Link>
+          <div>
+            <Link to="/alerts">
+              <Button theme="main">Alerts</Button>
+            </Link>
+            <Link to="/bars">
+              <Button theme="main">Bars</Button>
+            </Link>
+            <Link to="/buttons">
+              <Button theme="main">Buttons</Button>
+            </Link>
+            <Link to="/cards">
+              <Button theme="main">Cards</Button>
+            </Link>
+            <Link to="/tab-bars">
+              <Button theme="main">Tab Bars</Button>
+            </Link>
+            <Link to="/list-views">
+              <Button theme="main">List Views</Button>
+            </Link>
+            <Link to="/loader">
+              <Button theme="main">Loader</Button>
+            </Link>
+            <Link to="/demo">
+              <Button theme="main">Demo</Button>
+            </Link>
+          </div>
           <Route exact path="/alerts" component={AlertPage} />
           <Route exact path="/bars" component={BarPage} />
           <Route exact path="/buttons" component={ButtonPage} />
