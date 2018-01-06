@@ -17,7 +17,7 @@ Bar {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Bar.js",
-        "lineNumber": 12,
+        "lineNumber": 13,
       },
       "alternate": null,
       "child": null,
