@@ -18,6 +18,9 @@ import {
 import './App.scss';
 
 const sidebarlinks = [{
+  route: "/",
+  text: "Home"
+}, {
   route: "/alerts",
   text: "Alerts"
 }, {
@@ -47,12 +50,6 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        <Bar theme="main">
-          <Button theme="main">
-            <i className="fas fa-list"></i>
-          </Button>
-          Spectrum
-        </Bar>
         <p>A React component library for use with Phonegap applications.</p>
         <p>These components are thoroughly tested, including snapshot tests, and are thoroughly typed using Flow.</p>
       </div>
@@ -310,7 +307,11 @@ class App extends Component<Props, State> {
         <div className="App">
           <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
           </Sidebar>
-          <Button block="true" theme="main" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>Toggle the sidebar</Button>
+          <Bar theme="main">
+            <Button theme="main" clickHandler={this.toggleSidebar.bind(this)}>
+              <i className="fas fa-list"></i>
+            </Button>
+          </Bar>
           <Route exact path="/" component={IndexPage} />
           <Route exact path="/alerts" component={AlertPage} />
           <Route exact path="/bars" component={BarPage} />
