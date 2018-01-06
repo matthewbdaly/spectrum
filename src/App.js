@@ -47,7 +47,12 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        <h1>Spectrum</h1>
+        <Bar theme="main">
+          <Button theme="main">
+            <i className="fas fa-list"></i>
+          </Button>
+          Spectrum
+        </Bar>
         <p>A React component library for use with Phonegap applications.</p>
       </div>
     );
