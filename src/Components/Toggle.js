@@ -17,11 +17,16 @@ class Toggle extends Component<Props, State> {
       checked: this.props.checked
     };
   }
+  update = () => {
+    this.setState({
+      checked: !this.state.checked
+    });
+  }
   render() {
     return (
-      <label className="toggle">
-        <input type="checkbox" />
-        <span className="slider" checked={this.state.checked}></span>
+      <label className="toggle" onChange={this.update}>
+        <input type="checkbox" checked={this.state.checked} />
+        <span className="slider"></span>
       </label>
     );
   }

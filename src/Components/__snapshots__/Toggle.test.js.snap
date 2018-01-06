@@ -17,7 +17,7 @@ Toggle {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-        "lineNumber": 22,
+        "lineNumber": 27,
       },
       "alternate": null,
       "child": FiberNode {
@@ -26,7 +26,7 @@ Toggle {
         "_debugOwner": [Circular],
         "_debugSource": Object {
           "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-          "lineNumber": 23,
+          "lineNumber": 28,
         },
         "alternate": null,
         "child": null,
@@ -38,6 +38,7 @@ Toggle {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "checked": undefined,
           "type": "checkbox",
         },
         "memoizedState": null,
@@ -51,7 +52,7 @@ Toggle {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
-            "lineNumber": 24,
+            "lineNumber": 29,
           },
           "alternate": null,
           "child": null,
@@ -63,7 +64,6 @@ Toggle {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "checked": undefined,
             "className": "slider",
           },
           "memoizedState": null,
@@ -96,14 +96,15 @@ Toggle {
       "memoizedProps": Object {
         "children": Array [
           <input
+            checked={undefined}
             type="checkbox"
 />,
           <span
-            checked={undefined}
             className="slider"
 />,
         ],
         "className": "toggle",
+        "onChange": [Function],
       },
       "memoizedState": null,
       "nextEffect": null,
@@ -278,6 +279,7 @@ Toggle {
   "state": Object {
     "checked": undefined,
   },
+  "update": [Function],
   "updater": Object {
     "enqueueForceUpdate": [Function],
     "enqueueReplaceState": [Function],
