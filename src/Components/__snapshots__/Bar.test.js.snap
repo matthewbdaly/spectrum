@@ -17,7 +17,7 @@ Bar {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Bar.js",
-        "lineNumber": 13,
+        "lineNumber": 34,
       },
       "alternate": null,
       "child": null,
@@ -53,7 +53,9 @@ Bar {
     "key": null,
     "lastEffect": null,
     "memoizedProps": Object {},
-    "memoizedState": null,
+    "memoizedState": Object {
+      "theme": "bar",
+    },
     "nextEffect": null,
     "pendingProps": null,
     "ref": null,
@@ -179,7 +181,9 @@ Bar {
   "context": Object {},
   "props": Object {},
   "refs": Object {},
-  "state": null,
+  "state": Object {
+    "theme": "bar",
+  },
   "updater": Object {
     "enqueueForceUpdate": [Function],
     "enqueueReplaceState": [Function],
