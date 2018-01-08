@@ -47,7 +47,14 @@ class ButtonPage extends Component {
         <Button block="true" theme="main" inverse="true">Button with the inverse main theme</Button>
         <Button block="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
         <Button block="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
-
+        <p>Buttons can be set as "rounded" buttons</p>
+        <Button rounded="true">Default Button</Button>
+        <Button rounded="true" theme="main">Button with the main theme</Button>
+        <Button rounded="true" theme="positive">Button with the positive theme</Button>
+        <Button rounded="true" theme="negative">Button with the negative theme</Button>
+        <Button rounded="true" theme="main" inverse="true">Button with the inverse main theme</Button>
+        <Button rounded="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button rounded="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
       </div>
     );
   }

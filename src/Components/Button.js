@@ -7,6 +7,7 @@ type Props = {
   theme: string,
   inverse: boolean,
   block: boolean,
+  rounded: boolean,
   children?: Node,
   clickHandler?: () => void
 };
@@ -24,6 +25,9 @@ class Button extends Component<Props, State> {
     }
     if (this.props.block) {
       theme += " block";
+    }
+    if (this.props.rounded) {
+      theme += " rounded";
     }
     this.state = {
       theme: theme

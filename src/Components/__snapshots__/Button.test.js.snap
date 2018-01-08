@@ -17,7 +17,7 @@ Button {
       "_debugOwner": [Circular],
       "_debugSource": Object {
         "fileName": "/home/matthew/Projects/spectrum/src/Components/Button.js",
-        "lineNumber": 34,
+        "lineNumber": 38,
       },
       "alternate": null,
       "child": null,

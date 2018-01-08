@@ -47,4 +47,8 @@ button {
         display: block;
         width: 100%;
     }
+
+    &.rounded {
+        border-radius: $btn-rounded-radius;
+    }
 }
