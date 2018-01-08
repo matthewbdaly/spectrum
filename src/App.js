@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import Bar from './Components/Bar';
 import Button from './Components/Button';
-import Card from './Components/Card';
-import TabBar from './Components/TabBar';
-import TabBarItem from './Components/TabBarItem';
-import ListView from './Components/ListView';
-import ListViewItem from './Components/ListViewItem';
-import Loader from './Components/Loader';
 import Sidebar from './Components/Sidebar';
-import TextInput from './Components/TextInput';
-import Toggle from './Components/Toggle';
 import IndexPage from './Pages/IndexPage';
 import AlertPage from './Pages/AlertPage';
 import BarPage from './Pages/BarPage';
