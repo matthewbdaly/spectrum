@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Alert from './Components/Alert';
 import Bar from './Components/Bar';
 import Button from './Components/Button';
 import Badge from './Components/Badge';
@@ -12,6 +11,10 @@ import Loader from './Components/Loader';
 import Sidebar from './Components/Sidebar';
 import TextInput from './Components/TextInput';
 import Toggle from './Components/Toggle';
+import IndexPage from './Pages/IndexPage';
+import AlertPage from './Pages/AlertPage';
+import BarPage from './Pages/BarPage';
+import ButtonPage from './Pages/ButtonPage';
 import {
   BrowserRouter as Router,
   Route
@@ -47,97 +50,6 @@ const sidebarlinks = [{
   text: "Demo"
 }];
 
-class IndexPage extends Component {
-  render() {
-    return (
-      <div>
-        <p>A React component library for use with Phonegap applications.</p>
-        <p>These components are thoroughly tested, including snapshot tests, and are thoroughly typed using Flow.</p>
-      </div>
-    );
-  }
-}
-
-class AlertPage extends Component {
-  render() {
-    return (
-      <div>
-        <Alert>This is a default alert</Alert>
-        <Alert theme="main">This is a main alert</Alert>
-        <Alert theme="positive">This is a positive alert</Alert>
-        <Alert theme="negative">This is a negative alert</Alert>
-      </div>
-    );
-  }
-}
-
-class BarPage extends Component {
-  render() {
-    return (
-      <div>
-        <Bar>This is a default bar</Bar>
-        <Bar theme="main">This is a main bar</Bar>
-        <Bar theme="positive">This is a positive bar</Bar>
-        <Bar theme="negative">This is a negative bar</Bar>
-        <Bar theme="main" inverse="true">This is an inverse main bar</Bar>
-        <Bar theme="positive" inverse="true">This is an inverse positive bar</Bar>
-        <Bar theme="negative" inverse="true">This is an inverse negative bar</Bar>
-      </div>
-    );
-  }
-}
-
-class ButtonPage extends Component {
-  render() {
-    return (
-      <div>
-        <p>The default button has a white background</p>
-        <Button>Default Button</Button>
-        <p>The <code>main</code> theme turns it blue</p>
-        <Button theme="main">Button with the main theme</Button>
-        <p>The <code>positive</code> theme turns it green</p>
-        <Button theme="positive">Button with the positive theme</Button>
-        <p>The <code>negative</code> theme turns it red</p>
-        <Button theme="negative">Button with the negative theme</Button>
-        <p>The <code>inverse</code> property inverts the theme</p>
-        <Button theme="main" inverse="true">Button with the inverse main theme</Button>
-        <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
-        <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
-        <p>Buttons can also use icons</p>
-        <Button>
-          <i className="fas fa-undo"></i>
-        </Button>
-        <Button theme="main">
-          <i className="fas fa-folder-open"></i>
-        </Button>
-        <Button theme="positive">
-          <i className="fas fa-smile"></i>
-        </Button>
-        <Button theme="negative">
-          <i className="fas fa-frown"></i>
-        </Button>
-        <Button theme="main" inverse="true">
-          <i className="fas fa-signal"></i>
-        </Button>
-        <Button theme="positive" inverse="true">
-          <i className="fas fa-sliders-h"></i>
-        </Button>
-        <Button theme="negative" inverse="true">
-          <i className="fas fa-times"></i>
-        </Button>
-        <p>Buttons can be set as "block" buttons</p>
-        <Button block="true">Default Button</Button>
-        <Button block="true" theme="main">Button with the main theme</Button>
-        <Button block="true" theme="positive">Button with the positive theme</Button>
-        <Button block="true" theme="negative">Button with the negative theme</Button>
-        <Button block="true" theme="main" inverse="true">Button with the inverse main theme</Button>
-        <Button block="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
-        <Button block="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
-
-      </div>
-    );
-  }
-}
 
 class CardPage extends Component {
   render() {
