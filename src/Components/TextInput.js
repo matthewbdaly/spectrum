@@ -10,7 +10,7 @@ type Props = {
 class TextInput extends Component<Props> {
   render() {
     return (
-      <label>{this.props.children}
+      <label className="textinput">{this.props.children}
         <input type="text"/>
       </label>
     );

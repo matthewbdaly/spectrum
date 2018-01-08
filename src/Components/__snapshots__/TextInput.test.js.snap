@@ -67,6 +67,7 @@ TextInput {
             type="text"
 />,
         ],
+        "className": "textinput",
       },
       "memoizedState": null,
       "nextEffect": null,
@@ -74,7 +75,9 @@ TextInput {
       "ref": null,
       "return": [Circular],
       "sibling": null,
-      "stateNode": <label>
+      "stateNode": <label
+        class="textinput"
+>
         <input
                 type="text"
         />
@@ -123,7 +126,9 @@ TextInput {
         "sibling": null,
         "stateNode": Object {
           "containerInfo": <div>
-            <label>
+            <label
+                        class="textinput"
+            >
                         <input
                                     type="text"
                         />
@@ -191,7 +196,9 @@ TextInput {
       "sibling": null,
       "stateNode": Object {
         "containerInfo": <div>
-          <label>
+          <label
+                    class="textinput"
+          >
                     <input
                               type="text"
                     />
