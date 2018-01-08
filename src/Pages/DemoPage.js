@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Bar from '../Components/Bar';
 import Button from '../Components/Button';
 import Card from '../Components/Card';
 import ListView from '../Components/ListView';
@@ -13,12 +12,6 @@ class DemoPage extends Component {
   render() {
     return (
       <div>
-        <Bar theme="main">
-          <Button theme="main">
-            <i className="fas fa-plus"></i>
-          </Button>
-          Music App
-        </Bar>
         <Card header="Queens of the Stone Age">
           <p>Queens of the Stone Age is an American rock band formed in 1996 in Palm Desert, California. The band's line-up includes founder Josh Homme (lead vocals, guitar, piano), alongside longtime members Troy Van Leeuwen (guitar, lap steel, keyboard, percussion, backing vocals), Michael Shuman (bass guitar, keyboard, backing vocals), Dean Fertita (keyboards, guitar, percussion, backing vocals), and recent addition Jon Theodore (drums, percussion).</p>
         </Card>
