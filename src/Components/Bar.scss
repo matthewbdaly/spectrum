@@ -5,6 +5,17 @@
     text-align: center;
     border: 1px solid black;
     padding: 20px;
+    background-color: $background;
+    color: $foreground;
+    position: fixed;
+
+    &.top {
+        top: 0;
+    }
+
+    &.bottom {
+        bottom: 0;
+    }
 
     &.main {
         background-color: $theme-main;

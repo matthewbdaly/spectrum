@@ -5,7 +5,10 @@ import './Bar.scss';
 
 type Props = {
   theme: string,
-  children?: Node
+  children?: Node,
+  location: string,
+  inverse: boolean,
+  block: boolean
 };
 
 type State = {
@@ -24,6 +27,9 @@ class Bar extends Component<Props, State> {
     }
     if (this.props.block) {
       theme += " block";
+    }
+    if (this.props.location) {
+      theme += " " + this.props.location;
     }
     this.state = {
       theme: theme
