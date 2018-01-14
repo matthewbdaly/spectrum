@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../themes";
 
 button {
     background-color: $background;
@@ -9,39 +10,6 @@ button {
     margin: $btn-margin;
     border-radius: $btn-radius;
     padding: $btn-padding;
-
-    &.main {
-        background-color: $theme-main;
-        color: $background;
-        border-color: $theme-main;
-
-        &.inverse {
-            color: $theme-main;
-            background-color: $background;
-        }
-    }
-
-    &.positive {
-        background-color: $theme-positive;
-        color: $background;
-        border-color: $theme-positive;
-
-        &.inverse {
-            color: $theme-positive;
-            background-color: $background;
-        }
-    }
-
-    &.negative {
-        background-color: $theme-negative;
-        color: $background;
-        border-color: $theme-negative;
-
-        &.inverse {
-            color: $theme-negative;
-            background-color: $background;
-        }
-    }
 
     &.block {
         display: block;
