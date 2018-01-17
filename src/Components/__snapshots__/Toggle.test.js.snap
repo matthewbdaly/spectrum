@@ -38,7 +38,7 @@ Toggle {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "checked": undefined,
+          "defaultChecked": undefined,
           "type": "checkbox",
         },
         "memoizedState": null,
@@ -96,7 +96,7 @@ Toggle {
       "memoizedProps": Object {
         "children": Array [
           <input
-            checked={undefined}
+            defaultChecked={undefined}
             type="checkbox"
 />,
           <span
