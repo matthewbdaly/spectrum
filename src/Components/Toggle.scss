@@ -11,6 +11,10 @@
 		display:none;
 	}
 
+    &:hover {
+        background-color: $background;
+    }
+
 	.slider {
 		position: absolute;
 		cursor: pointer;
