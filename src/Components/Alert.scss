@@ -1,6 +1,6 @@
 @import "../variables";
 
-div.alert {
+.alert {
     width: 100%;
     background-color: $background;
     color: $foreground;
@@ -43,6 +43,4 @@ div.alert {
             background-color: $background;
         }
     }
-
-
 }
