@@ -19,4 +19,8 @@ button {
     &.rounded {
         border-radius: $btn-rounded-radius;
     }
+
+    &:focus {
+        outline: none;
+    }
 }
