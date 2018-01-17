@@ -4,10 +4,19 @@
     background-color: $theme-main;
     color: $background;
     border-color: $theme-main;
+    transition: 0.4s;
 
-    .inverse {
+    &:hover, &:focus {
+        background-color: darken($theme-main, 10%);
+    }
+
+    &.inverse {
         color: $theme-main;
         background-color: $background;
+
+        &:hover, &:focus {
+            color: darken($theme-main, 10%);
+        }
     }
 }
 
@@ -15,10 +24,19 @@
     background-color: $theme-positive;
     color: $background;
     border-color: $theme-positive;
+    transition: 0.4s;
 
-    .inverse {
+    &:hover, &:focus {
+        background-color: darken($theme-positive, 10%);
+    }
+
+    &.inverse {
         color: $theme-positive;
         background-color: $background;
+
+        &:hover, &:focus {
+            color: darken($theme-positive, 10%);
+        }
     }
 }
 
@@ -26,10 +44,19 @@
     background-color: $theme-negative;
     color: $background;
     border-color: $theme-negative;
+    transition: 0.4s;
 
-    .inverse {
+    &:hover, &:focus {
+        background-color: darken($theme-negative, 10%);
+    }
+
+    &.inverse {
         color: $theme-negative;
         background-color: $background;
+
+        &:hover, &:focus {
+            color: darken($theme-negative, 10%);
+        }
     }
 }
 
