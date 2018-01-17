@@ -6,7 +6,7 @@ import ListViewItem from '../Components/ListViewItem';
 class CardPage extends Component {
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <p>Cards are simple containers for your content. They include a header field.</p>
         <Card header="Default card">This is an example of a default Card component</Card>
         <p>Cards can contain listviews.</p>
