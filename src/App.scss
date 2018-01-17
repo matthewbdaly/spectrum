@@ -2,6 +2,13 @@
 
 html, body, div, section {
     box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 div, section {
