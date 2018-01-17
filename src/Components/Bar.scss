@@ -7,13 +7,14 @@
     padding: 20px;
     background-color: $background;
     color: $foreground;
-    position: fixed;
 
     &.top {
+        position: fixed;
         top: 0;
     }
 
     &.bottom {
+        position: fixed;
         bottom: 0;
     }
 
