@@ -26,6 +26,11 @@
             padding: 20px;
             text-decoration: none;
             display: block;
+            color: $foreground;
+
+            &:hover {
+                background-color: #efefef;
+            }
         }
     }
 }
