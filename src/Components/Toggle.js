@@ -28,7 +28,7 @@ class Toggle extends Component<Props, State> {
   render() {
     return (
       <label className={this.state.theme} onChange={this.update}>
-        <input type="checkbox" checked={this.state.checked} />
+        <input type="checkbox" defaultChecked={this.state.checked} />
         <span className="slider"></span>
       </label>
     );
