@@ -12,7 +12,7 @@ import ListViewPage from './Pages/ListViewPage';
 import LoaderPage from './Pages/LoaderPage';
 import DemoPage from './Pages/DemoPage';
 import {
-  BrowserRouter as Router,
+  withRouter,
   Route
 } from 'react-router-dom';
 import './App.scss';
@@ -61,6 +61,16 @@ class App extends Component<Props, State> {
       sidebarActive: false
     };
   }
+  componentDidMount() {
+    this.unlisten = this.props.history.listen(location => {
+      this.setState({
+        sidebarActive: false
+      });
+    });
+  }
+  componentWillUnmount() {
+    this.unlisten();
+  }
   toggleSidebar() {
     this.setState({
       sidebarActive: !this.state.sidebarActive
@@ -68,28 +78,26 @@ class App extends Component<Props, State> {
   }
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
-          </Sidebar>
-          <Bar location="top">
-            <Button theme="positive" rounded="true" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>
-              <i className="fas fa-list"></i>
-            </Button>
-          </Bar>
-          <Route exact path="/" component={IndexPage} />
-          <Route exact path="/alerts" component={AlertPage} />
-          <Route exact path="/bars" component={BarPage} />
-          <Route exact path="/buttons" component={ButtonPage} />
-          <Route exact path="/cards" component={CardPage} />
-          <Route exact path="/tab-bars" component={TabBarPage} />
-          <Route exact path="/list-views" component={ListViewPage} />
-          <Route exact path="/loader" component={LoaderPage} />
-          <Route exact path="/demo" component={DemoPage} />
-        </div>
-      </Router>
+      <div className="App">
+        <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
+        </Sidebar>
+        <Bar location="top">
+          <Button theme="positive" rounded="true" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>
+            <i className="fas fa-list"></i>
+          </Button>
+        </Bar>
+        <Route exact path="/" component={IndexPage} />
+        <Route exact path="/alerts" component={AlertPage} />
+        <Route exact path="/bars" component={BarPage} />
+        <Route exact path="/buttons" component={ButtonPage} />
+        <Route exact path="/cards" component={CardPage} />
+        <Route exact path="/tab-bars" component={TabBarPage} />
+        <Route exact path="/list-views" component={ListViewPage} />
+        <Route exact path="/loader" component={LoaderPage} />
+        <Route exact path="/demo" component={DemoPage} />
+      </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
