@@ -12,34 +12,34 @@
     padding: $btn-padding;
 
     &.main {
-        background-color: $theme-main;
+        background-color: $theme-default;
         color: $background;
-        border-color: $theme-main;
+        border-color: $theme-default;
 
         &.inverse {
-            color: $theme-main;
+            color: $theme-default;
             background-color: $background;
         }
     }
 
     &.positive {
-        background-color: $theme-positive;
+        background-color: $theme-cool;
         color: $background;
-        border-color: $theme-positive;
+        border-color: $theme-cool;
 
         &.inverse {
-            color: $theme-positive;
+            color: $theme-cool;
             background-color: $background;
         }
     }
 
     &.negative {
-        background-color: $theme-negative;
+        background-color: $theme-hot;
         color: $background;
-        border-color: $theme-negative;
+        border-color: $theme-hot;
 
         &.inverse {
-            color: $theme-negative;
+            color: $theme-hot;
             background-color: $background;
         }
     }

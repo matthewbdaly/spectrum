@@ -46,15 +46,15 @@
 	}
 
 	&.main input:checked + .slider {
-		background-color: $theme-main;
+		background-color: $theme-default;
 	}
 
 	&.positive input:checked + .slider {
-		background-color: $theme-positive;
+		background-color: $theme-cool;
 	}
 
 	&.negative input:checked + .slider {
-		background-color: $theme-negative;
+		background-color: $theme-hot;
 	}
 
 	input:focus + .slider {
