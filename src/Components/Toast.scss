@@ -1,0 +1,22 @@
+@import "../variables";
+
+.toast::before {
+}
+
+.toast {
+    border-radius: 5px;
+    background-color: rgba(220,220, 220, 0.3);
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 5px #c0c0c0;
+
+    .toast-content {
+        z-index: 10;
+        filter: none;
+        position: relative;
+    }
+}
