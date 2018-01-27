@@ -46,7 +46,7 @@
 	}
 
 	&.main input:checked + .slider {
-		background-color: $theme-default;
+		background-color: $theme-main;
 	}
 
 	&.cool input:checked + .slider {

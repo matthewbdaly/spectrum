@@ -11,12 +11,12 @@
     }
 
     &.main {
-        background-color: $theme-default;
+        background-color: $theme-main;
         color: $background;
-        border-color: $theme-default;
+        border-color: $theme-main;
 
         &.inverse {
-            color: $theme-default;
+            color: $theme-main;
             background-color: $background;
         }
     }
