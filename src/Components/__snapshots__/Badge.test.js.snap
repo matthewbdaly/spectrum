@@ -7,7 +7,7 @@ Badge {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Badge.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Badge.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Badge {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Badge.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Badge.js",
         "lineNumber": 29,
       },
       "alternate": null,

@@ -7,7 +7,7 @@ TextInput {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/TextInput.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/TextInput.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ TextInput {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/TextInput.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/TextInput.js",
         "lineNumber": 13,
       },
       "alternate": null,
@@ -25,7 +25,7 @@ TextInput {
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": [Circular],
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/TextInput.js",
+          "fileName": "<PROJECT_ROOT>/src/Components/TextInput.js",
           "lineNumber": 14,
         },
         "alternate": null,

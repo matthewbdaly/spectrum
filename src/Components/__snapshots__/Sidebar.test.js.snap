@@ -7,7 +7,7 @@ BrowserRouter {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.test.js",
       "lineNumber": 45,
     },
     "alternate": null,
@@ -22,7 +22,7 @@ BrowserRouter {
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": null,
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.test.js",
+          "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.test.js",
           "lineNumber": 46,
         },
         "alternate": null,
@@ -31,7 +31,7 @@ BrowserRouter {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+            "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
             "lineNumber": 26,
           },
           "alternate": null,
@@ -40,7 +40,7 @@ BrowserRouter {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+              "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
               "lineNumber": 20,
             },
             "alternate": null,
@@ -49,7 +49,7 @@ BrowserRouter {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                 "lineNumber": 21,
               },
               "alternate": null,
@@ -260,7 +260,7 @@ BrowserRouter {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                 "lineNumber": 20,
               },
               "alternate": null,
@@ -269,7 +269,7 @@ BrowserRouter {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                  "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                   "lineNumber": 21,
                 },
                 "alternate": null,
@@ -480,7 +480,7 @@ BrowserRouter {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                  "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                   "lineNumber": 20,
                 },
                 "alternate": null,
@@ -489,7 +489,7 @@ BrowserRouter {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                    "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                     "lineNumber": 21,
                   },
                   "alternate": null,
@@ -700,7 +700,7 @@ BrowserRouter {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                    "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                     "lineNumber": 20,
                   },
                   "alternate": null,
@@ -709,7 +709,7 @@ BrowserRouter {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                      "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                       "lineNumber": 21,
                     },
                     "alternate": null,
@@ -920,7 +920,7 @@ BrowserRouter {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                      "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                       "lineNumber": 20,
                     },
                     "alternate": null,
@@ -929,7 +929,7 @@ BrowserRouter {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                        "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                         "lineNumber": 21,
                       },
                       "alternate": null,
@@ -1140,7 +1140,7 @@ BrowserRouter {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                        "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                         "lineNumber": 20,
                       },
                       "alternate": null,
@@ -1149,7 +1149,7 @@ BrowserRouter {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                          "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                           "lineNumber": 21,
                         },
                         "alternate": null,
@@ -1360,7 +1360,7 @@ BrowserRouter {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                          "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                           "lineNumber": 20,
                         },
                         "alternate": null,
@@ -1369,7 +1369,7 @@ BrowserRouter {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                            "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                             "lineNumber": 21,
                           },
                           "alternate": null,
@@ -1580,7 +1580,7 @@ BrowserRouter {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                            "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                             "lineNumber": 20,
                           },
                           "alternate": null,
@@ -1589,7 +1589,7 @@ BrowserRouter {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/home/matthew/Projects/spectrum/src/Components/Sidebar.js",
+                              "fileName": "<PROJECT_ROOT>/src/Components/Sidebar.js",
                               "lineNumber": 21,
                             },
                             "alternate": null,

@@ -7,7 +7,7 @@ ListView {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/ListView.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/ListView.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ ListView {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/ListView.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/ListView.js",
         "lineNumber": 13,
       },
       "alternate": null,

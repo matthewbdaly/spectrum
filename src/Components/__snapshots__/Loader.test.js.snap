@@ -7,7 +7,7 @@ Loader {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Loader.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Loader.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Loader {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Loader.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Loader.js",
         "lineNumber": 11,
       },
       "alternate": null,

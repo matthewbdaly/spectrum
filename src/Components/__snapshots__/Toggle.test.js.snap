@@ -7,7 +7,7 @@ Toggle {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Toggle.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Toggle {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Toggle.js",
         "lineNumber": 30,
       },
       "alternate": null,
@@ -25,7 +25,7 @@ Toggle {
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": [Circular],
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
+          "fileName": "<PROJECT_ROOT>/src/Components/Toggle.js",
           "lineNumber": 31,
         },
         "alternate": null,
@@ -51,7 +51,7 @@ Toggle {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/home/matthew/Projects/spectrum/src/Components/Toggle.js",
+            "fileName": "<PROJECT_ROOT>/src/Components/Toggle.js",
             "lineNumber": 32,
           },
           "alternate": null,

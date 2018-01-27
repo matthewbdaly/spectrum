@@ -7,7 +7,7 @@ Alert {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Alert.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Alert.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Alert {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Alert.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Alert.js",
         "lineNumber": 25,
       },
       "alternate": null,

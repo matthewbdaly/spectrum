@@ -7,7 +7,7 @@ Toast {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Toast.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Toast.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Toast {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Toast.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Toast.js",
         "lineNumber": 13,
       },
       "alternate": null,
@@ -25,7 +25,7 @@ Toast {
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": [Circular],
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/Toast.js",
+          "fileName": "<PROJECT_ROOT>/src/Components/Toast.js",
           "lineNumber": 14,
         },
         "alternate": null,

@@ -7,7 +7,7 @@ Card {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Card.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Card.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Card {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Card.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Card.js",
         "lineNumber": 14,
       },
       "alternate": null,
@@ -25,7 +25,7 @@ Card {
         "_debugIsCurrentlyTiming": false,
         "_debugOwner": [Circular],
         "_debugSource": Object {
-          "fileName": "/home/matthew/Projects/spectrum/src/Components/Card.js",
+          "fileName": "<PROJECT_ROOT>/src/Components/Card.js",
           "lineNumber": 15,
         },
         "alternate": null,
@@ -34,7 +34,7 @@ Card {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/home/matthew/Projects/spectrum/src/Components/Card.js",
+            "fileName": "<PROJECT_ROOT>/src/Components/Card.js",
             "lineNumber": 16,
           },
           "alternate": null,
@@ -81,7 +81,7 @@ Card {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/home/matthew/Projects/spectrum/src/Components/Card.js",
+            "fileName": "<PROJECT_ROOT>/src/Components/Card.js",
             "lineNumber": 18,
           },
           "alternate": null,

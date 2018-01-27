@@ -7,7 +7,7 @@ Bar {
     "_debugIsCurrentlyTiming": false,
     "_debugOwner": null,
     "_debugSource": Object {
-      "fileName": "/home/matthew/Projects/spectrum/src/Components/Bar.test.js",
+      "fileName": "<PROJECT_ROOT>/src/Components/Bar.test.js",
       "lineNumber": 12,
     },
     "alternate": null,
@@ -16,7 +16,7 @@ Bar {
       "_debugIsCurrentlyTiming": false,
       "_debugOwner": [Circular],
       "_debugSource": Object {
-        "fileName": "/home/matthew/Projects/spectrum/src/Components/Bar.js",
+        "fileName": "<PROJECT_ROOT>/src/Components/Bar.js",
         "lineNumber": 40,
       },
       "alternate": null,

@@ -51,6 +51,9 @@
     "flow": "flow"
   },
   "jest": {
+    "snapshotSerializers": [
+        "jest-serializer-path"
+    ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
     ],
@@ -94,6 +97,7 @@
   },
   "devDependencies": {
     "flow-bin": "^0.62.0",
+    "jest-serializer-path": "^0.1.5",
     "node-sass": "^4.7.2",
     "react-router": "^4.2.0",
     "sass-loader": "^6.0.6"
