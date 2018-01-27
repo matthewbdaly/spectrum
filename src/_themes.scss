@@ -40,6 +40,26 @@
     }
 }
 
+.warm {
+    background-color: $theme-warm;
+    color: $background;
+    border-color: $theme-warm;
+    transition: 0.4s;
+
+    &:hover, &:focus {
+        background-color: darken($theme-warm, 10%);
+    }
+
+    &.inverse {
+        color: $theme-warm;
+        background-color: $background;
+
+        &:hover, &:focus {
+            color: darken($theme-warm, 10%);
+        }
+    }
+}
+
 .hot {
     background-color: $theme-hot;
     color: $background;
@@ -59,4 +79,3 @@
         }
     }
 }
-
