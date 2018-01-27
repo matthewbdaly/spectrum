@@ -33,6 +33,18 @@
         }
     }
 
+    &.warm {
+        background-color: $theme-warm;
+        color: $background;
+        border-color: $theme-warm;
+
+        &.inverse {
+            color: $theme-warm;
+            background-color: $background;
+        }
+    }
+
+
     &.hot {
         background-color: $theme-hot;
         color: $background;
