@@ -53,7 +53,7 @@
 		background-color: $theme-cool;
 	}
 
-	&.negative input:checked + .slider {
+	&.hot input:checked + .slider {
 		background-color: $theme-hot;
 	}
 

@@ -8,7 +8,7 @@ class AlertPage extends Component {
         <Alert>This is a default alert</Alert>
         <Alert theme="main">This is a main alert</Alert>
         <Alert theme="cool">This is a cool alert</Alert>
-        <Alert theme="negative">This is a negative alert</Alert>
+        <Alert theme="hot">This is a hot alert</Alert>
       </div>
     );
   }

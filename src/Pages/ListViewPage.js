@@ -23,7 +23,7 @@ class ListViewPage extends Component {
             <Badge theme="cool">5</Badge>
           </ListViewItem>
           <ListViewItem>
-            <Badge theme="negative">5</Badge>
+            <Badge theme="hot">5</Badge>
           </ListViewItem>
           <ListViewItem>
             <Badge theme="main" inverse="true">5</Badge>
@@ -32,7 +32,7 @@ class ListViewPage extends Component {
             <Badge theme="cool" inverse="true">5</Badge>
           </ListViewItem>
           <ListViewItem>
-            <Badge theme="negative" inverse="true">5</Badge>
+            <Badge theme="hot" inverse="true">5</Badge>
           </ListViewItem>
         </ListView>
       </div>
