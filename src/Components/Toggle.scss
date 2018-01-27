@@ -53,6 +53,10 @@
 		background-color: $theme-cool;
 	}
 
+	&.warm input:checked + .slider {
+		background-color: $theme-warm;
+	}
+
 	&.hot input:checked + .slider {
 		background-color: $theme-hot;
 	}

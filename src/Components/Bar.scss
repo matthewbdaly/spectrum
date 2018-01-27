@@ -17,37 +17,4 @@
         position: fixed;
         bottom: 0;
     }
-
-    &.main {
-        background-color: $theme-main;
-        color: $background;
-        border-color: $theme-main;
-
-        &.inverse {
-            color: $theme-main;
-            background-color: $background;
-        }
-    }
-
-    &.cool {
-        background-color: $theme-cool;
-        color: $background;
-        border-color: $theme-cool;
-
-        &.inverse {
-            color: $theme-cool;
-            background-color: $background;
-        }
-    }
-
-    &.hot {
-        background-color: $theme-hot;
-        color: $background;
-        border-color: $theme-hot;
-
-        &.inverse {
-            color: $theme-hot;
-            background-color: $background;
-        }
-    }
 }

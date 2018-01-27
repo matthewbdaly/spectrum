@@ -8,9 +8,11 @@ class BarPage extends Component {
         <Bar>This is a default bar</Bar>
         <Bar theme="main">This is a main bar</Bar>
         <Bar theme="cool">This is a cool bar</Bar>
+        <Bar theme="warm">This is a warm bar</Bar>
         <Bar theme="hot">This is a hot bar</Bar>
         <Bar theme="main" inverse="true">This is an inverse main bar</Bar>
         <Bar theme="cool" inverse="true">This is an inverse cool bar</Bar>
+        <Bar theme="warm" inverse="true">This is an inverse warm bar</Bar>
         <Bar theme="hot" inverse="true">This is an inverse hot bar</Bar>
       </div>
     );

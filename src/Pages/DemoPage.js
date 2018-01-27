@@ -31,6 +31,7 @@ class DemoPage extends Component {
 				<Toggle theme="" checked={true} />
 				<Toggle theme="main" checked={true} />
 				<Toggle theme="cool" checked={true} />
+				<Toggle theme="warm" checked={true} />
 				<Toggle theme="hot" checked={true} />
         <TabBar>
           <TabBarItem active="true">
