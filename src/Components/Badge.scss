@@ -21,6 +21,17 @@
         }
     }
 
+    &.warm {
+        background-color: $theme-warm;
+        color: $background;
+        border-color: $theme-warm;
+
+        &.inverse {
+            color: $theme-warm;
+            background-color: $background;
+        }
+    }
+
     &.cool {
         background-color: $theme-cool;
         color: $background;
