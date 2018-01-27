@@ -47,12 +47,13 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
+    "cover": "npm run lint && npm run flow && node scripts/test.js --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint src/",
     "flow": "flow"
   },
   "jest": {
     "snapshotSerializers": [
-        "jest-serializer-path"
+      "jest-serializer-path"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
@@ -96,6 +97,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "flow-bin": "^0.62.0",
     "jest-serializer-path": "^0.1.5",
     "node-sass": "^4.7.2",
