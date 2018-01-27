@@ -9,13 +9,13 @@ class ButtonPage extends Component {
         <Button>Default Button</Button>
         <p>The <code>main</code> theme turns it blue</p>
         <Button theme="main">Button with the main theme</Button>
-        <p>The <code>positive</code> theme turns it green</p>
-        <Button theme="positive">Button with the positive theme</Button>
+        <p>The <code>cool</code> theme turns it green</p>
+        <Button theme="cool">Button with the cool theme</Button>
         <p>The <code>negative</code> theme turns it red</p>
         <Button theme="negative">Button with the negative theme</Button>
         <p>The <code>inverse</code> property inverts the theme</p>
         <Button theme="main" inverse="true">Button with the inverse main theme</Button>
-        <Button theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button theme="cool" inverse="true">Button with the inverse cool theme</Button>
         <Button theme="negative" inverse="true">Button with the inverse negative theme</Button>
         <p>Buttons can also use icons</p>
         <Button>
@@ -24,7 +24,7 @@ class ButtonPage extends Component {
         <Button theme="main">
           <i className="fas fa-folder-open"></i>
         </Button>
-        <Button theme="positive">
+        <Button theme="cool">
           <i className="fas fa-smile"></i>
         </Button>
         <Button theme="negative">
@@ -33,7 +33,7 @@ class ButtonPage extends Component {
         <Button theme="main" inverse="true">
           <i className="fas fa-signal"></i>
         </Button>
-        <Button theme="positive" inverse="true">
+        <Button theme="cool" inverse="true">
           <i className="fas fa-sliders-h"></i>
         </Button>
         <Button theme="negative" inverse="true">
@@ -42,18 +42,18 @@ class ButtonPage extends Component {
         <p>Buttons can be set as "block" buttons</p>
         <Button block="true">Default Button</Button>
         <Button block="true" theme="main">Button with the main theme</Button>
-        <Button block="true" theme="positive">Button with the positive theme</Button>
+        <Button block="true" theme="cool">Button with the cool theme</Button>
         <Button block="true" theme="negative">Button with the negative theme</Button>
         <Button block="true" theme="main" inverse="true">Button with the inverse main theme</Button>
-        <Button block="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button block="true" theme="cool" inverse="true">Button with the inverse cool theme</Button>
         <Button block="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
         <p>Buttons can be set as "rounded" buttons</p>
         <Button rounded="true">Default Button</Button>
         <Button rounded="true" theme="main">Button with the main theme</Button>
-        <Button rounded="true" theme="positive">Button with the positive theme</Button>
+        <Button rounded="true" theme="cool">Button with the cool theme</Button>
         <Button rounded="true" theme="negative">Button with the negative theme</Button>
         <Button rounded="true" theme="main" inverse="true">Button with the inverse main theme</Button>
-        <Button rounded="true" theme="positive" inverse="true">Button with the inverse positive theme</Button>
+        <Button rounded="true" theme="cool" inverse="true">Button with the inverse cool theme</Button>
         <Button rounded="true" theme="negative" inverse="true">Button with the inverse negative theme</Button>
       </div>
     );

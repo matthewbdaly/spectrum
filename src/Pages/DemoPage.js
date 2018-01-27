@@ -25,12 +25,12 @@ class DemoPage extends Component {
           <ListViewItem>Songs for the Deaf</ListViewItem>
           <ListViewItem>Lullabies to Paralyze</ListViewItem>
         </ListView>
-        <Button block="true" theme="positive" inverse="true">I like this</Button>
+        <Button block="true" theme="cool" inverse="true">I like this</Button>
         <Button block="true" theme="negative" inverse="true">I don't like this</Button>
         <TextInput>Your comment</TextInput>
 				<Toggle theme="" checked={true} />
 				<Toggle theme="main" checked={true} />
-				<Toggle theme="positive" checked={true} />
+				<Toggle theme="cool" checked={true} />
 				<Toggle theme="negative" checked={true} />
         <TabBar>
           <TabBarItem active="true">

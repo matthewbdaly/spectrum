@@ -82,7 +82,7 @@ class App extends Component<Props, State> {
         <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
         </Sidebar>
         <Bar location="top" theme="main">
-          <Button theme="positive" rounded="true" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>
+          <Button theme="cool" rounded="true" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>
             <i className="fas fa-list"></i>
           </Button>
         </Bar>
