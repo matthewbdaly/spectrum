@@ -49,7 +49,8 @@
     "test": "node scripts/test.js --env=jsdom",
     "cover": "npm run lint && npm run flow && node scripts/test.js --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint src/",
-    "flow": "flow"
+    "flow": "flow",
+    "deploy": "npm run build && node scripts/deploy.js"
   },
   "jest": {
     "snapshotSerializers": [
@@ -97,6 +98,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "bitballoon": "^0.2.2",
     "coveralls": "^3.0.0",
     "flow-bin": "^0.62.0",
     "jest-serializer-path": "^0.1.5",
