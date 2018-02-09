@@ -76,10 +76,15 @@ class App extends Component<Props, State> {
       sidebarActive: !this.state.sidebarActive
     });
   }
+  setSidebarInactive() {
+    this.setState({
+      sidebarActive: false
+    });
+  }
   render() {
     return (
       <div className="App">
-        <Sidebar links={sidebarlinks} active={this.state.sidebarActive}>
+        <Sidebar links={sidebarlinks} active={this.state.sidebarActive} onClickOutside={this.setSidebarInactive.bind(this)}>
         </Sidebar>
         <Bar location="top" theme="main">
           <Button theme="cool" rounded="true" inverse="true" clickHandler={this.toggleSidebar.bind(this)}>

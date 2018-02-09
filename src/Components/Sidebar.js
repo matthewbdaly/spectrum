@@ -10,7 +10,8 @@ type LinkItem = {
 
 type Props = {
   links: Array<LinkItem>,
-  active: boolean
+  active: boolean,
+  onClickOutside?: () => void
 };
 
 class Sidebar extends Component<Props> {
@@ -31,7 +32,7 @@ class Sidebar extends Component<Props> {
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
       if (this.props.active === true) {
-        alert('Clicked');
+        this.props.onToggle();
       }
     }
   }
