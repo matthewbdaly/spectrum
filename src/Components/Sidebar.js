@@ -14,6 +14,27 @@ type Props = {
 };
 
 class Sidebar extends Component<Props> {
+  constructor(props) {
+    super(props);
+    this.setWrapperRef = this.setWrapperRef.bind(this);
+    this.handleClickOutside = this.handleClickOutside.bind(this);
+  }
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside);
+  }
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside);
+  }
+  setWrapperRef(node) {
+    this.wrapperRef = node;
+  }
+  handleClickOutside(event) {
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+      if (this.props.active === true) {
+        alert('Clicked');
+      }
+    }
+  }
   render() {
     let linkNodes = this.props.links.map((item, index) => {
       return (
@@ -23,7 +44,7 @@ class Sidebar extends Component<Props> {
       );
     });
     return (
-      <ul className={ 'sidebar' + (this.props.active ? ' active' : '') }>
+      <ul ref={this.setWrapperRef} className={ 'sidebar' + (this.props.active ? ' active' : '') }>
         {linkNodes}
       </ul>
     );
