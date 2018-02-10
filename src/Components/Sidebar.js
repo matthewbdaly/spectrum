@@ -11,7 +11,7 @@ type LinkItem = {
 type Props = {
   links: Array<LinkItem>,
   active: boolean,
-  onClickOutside?: () => void
+  onClickOutside: () => void
 };
 
 class Sidebar extends Component<Props> {
