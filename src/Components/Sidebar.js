@@ -15,7 +15,7 @@ type Props = {
 };
 
 class Sidebar extends Component<Props> {
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
