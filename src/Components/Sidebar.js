@@ -32,7 +32,7 @@ class Sidebar extends Component<Props> {
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
       if (this.props.active === true) {
-        this.props.onToggle();
+        this.props.onClickOutside();
       }
     }
   }
