@@ -7,10 +7,9 @@
     border-style: $border-style;
     border-width: $border-width;
     border-color: $border-color;
+    color: #929292;
 
-    &.active {
-        background-color: blue;
-        border-color: blue;
-        color: #fff;
+    &.active, &:active, &:hover {
+        color: #428bca;
     }
 }
