@@ -16,6 +16,8 @@ type Props = {
 
 class Sidebar extends Component<Props> {
   wrapperRef: ?HTMLUListElement;
+  setWrapperRef: Function;
+  handleClickOutside: Function;
   constructor(props: Props) {
     super(props);
     this.setWrapperRef = this.setWrapperRef.bind(this);
