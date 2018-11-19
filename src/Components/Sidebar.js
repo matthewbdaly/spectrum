@@ -33,7 +33,7 @@ class Sidebar extends Component<Props> {
     this.wrapperRef = node;
   }
   handleClickOutside(event: Event) {
-    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+    if (this.wrapperRef && event.target instanceof Node && !this.wrapperRef.contains(event.target)) {
       if (this.props.active === true) {
         this.props.onClickOutside();
       }
