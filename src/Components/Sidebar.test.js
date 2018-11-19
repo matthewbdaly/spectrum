@@ -38,14 +38,3 @@ it('renders without crashing', () => {
     div
   );
 });
-
-it('should match the snapshot', () => {
-  const div = document.createElement('div');
-  const el = ReactDOM.render(
-    <Router>
-      <Sidebar links={sidebarlinks} />
-    </Router>,
-    div
-  );
-  expect(el).toMatchSnapshot();
-});
