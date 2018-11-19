@@ -31,9 +31,9 @@
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
     "raf": "3.4.0",
-    "react": "^16.3.2",
+    "react": "^16.6.3",
     "react-dev-utils": "^4.2.1",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.6.3",
     "react-router-dom": "^4.2.2",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -99,11 +99,11 @@
   },
   "devDependencies": {
     "bitballoon": "^0.2.2",
-    "coveralls": "^3.0.1",
-    "flow-bin": "^0.62.0",
+    "coveralls": "^3.0.2",
+    "flow-bin": "^0.86.0",
     "jest-serializer-path": "^0.1.15",
-    "node-sass": "^4.9.0",
-    "react-router": "^4.2.0",
+    "node-sass": "^4.10.0",
+    "react-router": "^4.3.1",
     "sass-loader": "^6.0.7"
   }
 }
