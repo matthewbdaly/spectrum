@@ -15,6 +15,7 @@ type Props = {
 };
 
 class Sidebar extends Component<Props> {
+  wrapperRef: ?HTMLUListElement;
   constructor(props: Props) {
     super(props);
     this.setWrapperRef = this.setWrapperRef.bind(this);
@@ -26,7 +27,7 @@ class Sidebar extends Component<Props> {
   componentWillUnmount() {
     document.removeEventListener('mousedown', this.handleClickOutside);
   }
-  setWrapperRef(node) {
+  setWrapperRef(node: HTMLUListElement) {
     this.wrapperRef = node;
   }
   handleClickOutside(event: Event) {
