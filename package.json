@@ -50,7 +50,8 @@
     "cover": "npm run lint && npm run flow && node scripts/test.js --updateSnapshot --env=jsdom --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint src/",
     "flow": "flow",
-    "deploy": "npm run build && node scripts/deploy.js"
+    "deploy": "npm run build && node scripts/deploy.js",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "jest": {
     "snapshotSerializers": [
@@ -98,6 +99,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@storybook/react": "^4.0.9",
     "bitballoon": "^0.2.2",
     "coveralls": "^3.0.2",
     "flow-bin": "^0.86.0",
