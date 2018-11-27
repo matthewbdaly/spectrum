@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Alert from '../src/Components/Alert';
+import Badge from '../src/Components/Badge';
 import Bar from '../src/Components/Bar';
 import Button from '../src/Components/Button';
 import Card from '../src/Components/Card';
@@ -13,6 +14,17 @@ storiesOf('Alert', module)
   .add('Cool theme', () => <Alert theme="cool">Cool alert</Alert>)
   .add('Warm theme', () => <Alert theme="warm">Warm alert</Alert>)
   .add('Hot theme', () => <Alert theme="hot">Hot alert</Alert>);
+
+storiesOf('Badge', module)
+  .add('Default theme', () => <Badge>Default Badge</Badge>)
+  .add('Main theme', () => <Badge theme="main">Badge with the main theme</Badge>)
+  .add('Cool theme', () => <Badge theme="cool">Badge with the cool theme</Badge>)
+  .add('Warm theme', () => <Badge theme="warm">Badge with the warm theme</Badge>)
+  .add('Hot theme', () => <Badge theme="hot">Badge with the hot theme</Badge>)
+  .add('Inverse main theme', () => <Badge theme="main" inverse="true">Badge with the inverse main theme</Badge>)
+  .add('Inverse cool theme', () => <Badge theme="cool" inverse="true">Badge with the inverse main theme</Badge>)
+  .add('Inverse warm theme', () => <Badge theme="warm" inverse="true">Badge with the inverse main theme</Badge>)
+  .add('Inverse hot theme', () => <Badge theme="hot" inverse="true">Badge with the inverse main theme</Badge>);
 
 storiesOf('Bar', module)
   .add('Default theme', () => <Bar>Default Bar</Bar>)
