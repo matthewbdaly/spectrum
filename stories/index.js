@@ -8,6 +8,8 @@ import Card from '../src/Components/Card';
 import ListView from '../src/Components/ListView';
 import ListViewItem from '../src/Components/ListViewItem';
 import Toggle from '../src/Components/Toggle';
+import TabBar from '../src/Components/TabBar';
+import TabBarItem from '../src/Components/TabBarItem';
 
 storiesOf('Alert', module)
   .add('Default theme', () => <Alert>Default alert</Alert>)
@@ -66,4 +68,29 @@ storiesOf('Toggle', module)
   .add('Warm theme', () => <Toggle theme="warm">Warm toggle</Toggle>)
   .add('Hot theme', () => <Toggle theme="hot">Hot toggle</Toggle>);
 
+storiesOf('TabBar', module)
+  .add('Tab bars', () => <div>
+        <p>Tab bars are bars that can contain multiple <code>TabBarItem</code> components. They use Flexbox so you should be able to add as many as you need and as long as you don't go overboard they should Just Work.</p>
+        <TabBar>
+          <TabBarItem active="true">Tab 1</TabBarItem>
+          <TabBarItem>Tab 2</TabBarItem>
+          <TabBarItem>Tab 3</TabBarItem>
+          <TabBarItem>Tab 4</TabBarItem>
+        </TabBar>
+        <p> A <code>TabBarItem</code> can use your choice of icon in the content.</p>
+        <TabBar>
+          <TabBarItem active="true">
+            <i className="fas fa-home"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i className="fas fa-folder"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i className="fas fa-list"></i>
+          </TabBarItem>
+          <TabBarItem>
+            <i className="fas fa-user"></i>
+          </TabBarItem>
+        </TabBar>
+      </div>);
 
