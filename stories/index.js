@@ -7,6 +7,7 @@ import Button from '../src/Components/Button';
 import Card from '../src/Components/Card';
 import ListView from '../src/Components/ListView';
 import ListViewItem from '../src/Components/ListViewItem';
+import Toggle from '../src/Components/Toggle';
 
 storiesOf('Alert', module)
   .add('Default theme', () => <Alert>Default alert</Alert>)
@@ -57,3 +58,12 @@ storiesOf('Card', module)
             <ListViewItem>Item 3</ListViewItem>
           </ListView>
         </Card>)
+
+storiesOf('Toggle', module)
+  .add('Default theme', () => <Toggle>Default toggle</Toggle>)
+  .add('Main theme', () => <Toggle theme="main">Main toggle</Toggle>)
+  .add('Cool theme', () => <Toggle theme="cool">Cool toggle</Toggle>)
+  .add('Warm theme', () => <Toggle theme="warm">Warm toggle</Toggle>)
+  .add('Hot theme', () => <Toggle theme="hot">Hot toggle</Toggle>);
+
+
