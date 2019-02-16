@@ -1,5 +1,7 @@
 // @flow
 import React, { Component } from 'react';
+import { findDOMNode } from 'react-dom';
+import type Node from 'react';
 
 type Props = {
   active: boolean,
@@ -26,9 +28,10 @@ export default function clicksOutside(WrappedComponent) {
       this.wrapperRef = node;
     }
     handleClickOutside(event: Event) {
-      const {target} = event.target;
-      if (this.wrapperRef && target instanceof Node && !this.wrapperRef.contains(target)) {
-        if (this.props.active === true) {
+      const {target} = event;
+      if (this.wrapperRef && target instanceof Node) {
+        const ref = findDOMNode(this.wrapperRef);
+        if (ref && !ref.contains(target) && this.props.active === true) {
           this.props.onClickOutside();
         }
       }

@@ -76,7 +76,7 @@ const links = [{
   'text': 'Bar',
 }];
 const handleClickOutside = () => {
-  console.log('You clicked outside');
+  alert('You clicked outside');
 };
 const SidebarComponent = withRouter(clicksOutside(Sidebar));
 
