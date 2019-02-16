@@ -10,6 +10,13 @@ import ListViewItem from '../src/Components/ListViewItem';
 import Toggle from '../src/Components/Toggle';
 import TabBar from '../src/Components/TabBar';
 import TabBarItem from '../src/Components/TabBarItem';
+import Sidebar from '../src/Components/Sidebar';
+import clicksOutside from '../src/Components/clicksOutside';
+import {
+  withRouter,
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom';
 
 storiesOf('Alert', module)
   .add('Default theme', () => <Alert>Default alert</Alert>)
@@ -60,6 +67,25 @@ storiesOf('Card', module)
             <ListViewItem>Item 3</ListViewItem>
           </ListView>
         </Card>)
+
+const links = [{
+  'route': '#foo',
+  'text': 'Foo',
+}, {
+  'route': '#bar',
+  'text': 'Bar',
+}];
+const handleClickOutside = () => {
+  console.log('You clicked outside');
+};
+const SidebarComponent = withRouter(clicksOutside(Sidebar));
+
+storiesOf('Sidebar', module)
+  .add('Sidebar', () => 
+    <Router>
+      <SidebarComponent links={links} active={true} onClickOutside={handleClickOutside} />
+    </Router>
+  );
 
 storiesOf('Toggle', module)
   .add('Default theme', () => <Toggle>Default toggle</Toggle>)
