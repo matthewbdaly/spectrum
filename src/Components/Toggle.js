@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Toggle.scss';
 
 type Props = {
@@ -7,32 +7,18 @@ type Props = {
   checked: boolean
 };
 
-type State = {
-  checked: boolean,
-  theme: string
-};
+export default function Toggle(props: Props)  {
+  const theme = props.theme ? 'toggle ' + props.theme : 'toggle';
+  const [checked, setChecked] = useState(props.checked);
 
-class Toggle extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-      checked: this.props.checked,
-      theme: this.props.theme ? 'toggle ' + this.props.theme : 'toggle'
-    };
+  const update = () => {
+    setChecked(!checked);
   }
-  update = () => {
-    this.setState({
-      checked: !this.state.checked
-    });
-  }
-  render() {
-    return (
-      <label className={this.state.theme} onChange={this.update}>
-        <input type="checkbox" defaultChecked={this.state.checked} />
-        <span className="slider"></span>
-      </label>
-    );
-  }
+
+  return (
+    <label className={theme} onChange={update}>
+      <input type="checkbox" defaultChecked={checked} />
+      <span className="slider"></span>
+    </label>
+  );
 }
-
-export default Toggle;
