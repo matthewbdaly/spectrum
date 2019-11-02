@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import type { Node } from 'react';
 import './TabBar.scss';
 
@@ -7,14 +7,12 @@ type Props = {
   children?: Node
 };
 
-class TabBar extends Component<Props> {
-  render() {
-    return (
-      <nav className="tab-bar">
-        {this.props.children}
-      </nav>
-    );
-  }
+const TabBar = (props: Props) => {
+  return (
+    <nav className="tab-bar">
+      {props.children}
+    </nav>
+  );
 }
 
 export default TabBar;

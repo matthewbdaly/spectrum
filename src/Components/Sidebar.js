@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.scss';
 
@@ -13,21 +13,19 @@ type Props = {
   active: boolean,
 };
 
-class Sidebar extends Component<Props> {
-  render() {
-    let linkNodes = this.props.links.map((item, index) => {
-      return (
-        <li key={index}>
-          <Link to={item.route}>{item.text}</Link>
-        </li>
-      );
-    });
+const Sidebar = (props: Props) => {
+  let linkNodes = props.links.map((item, index) => {
     return (
-      <ul className={ 'sidebar' + (this.props.active ? ' active' : '') }>
-        {linkNodes}
-      </ul>
+      <li key={index}>
+        <Link to={item.route}>{item.text}</Link>
+      </li>
     );
-  }
+  });
+  return (
+    <ul className={ 'sidebar' + (props.active ? ' active' : '') }>
+      {linkNodes}
+    </ul>
+  );
 }
 
 export default Sidebar;

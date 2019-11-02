@@ -7,7 +7,7 @@ type Props = {
   checked: boolean
 };
 
-export default function Toggle(props: Props)  {
+const Toggle = (props: Props) => {
   const theme = props.theme ? 'toggle ' + props.theme : 'toggle';
   const [checked, setChecked] = useState(props.checked);
 
@@ -22,3 +22,5 @@ export default function Toggle(props: Props)  {
     </label>
   );
 }
+
+export default Toggle;
