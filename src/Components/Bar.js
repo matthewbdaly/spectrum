@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import type { Node } from 'react';
 import './Bar.scss';
 
@@ -11,37 +11,25 @@ type Props = {
   block: boolean
 };
 
-type State = {
-  theme: string
-}
-
-class Bar extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    let theme = "bar";
-    if (this.props.theme) {
-      theme += " " + this.props.theme;
-    }
-    if (this.props.inverse) {
-      theme += " inverse";
-    }
-    if (this.props.block) {
-      theme += " block";
-    }
-    if (this.props.location) {
-      theme += " " + this.props.location;
-    }
-    this.state = {
-      theme: theme
-    };
+const Bar = (props: Props) => {
+  let theme = "bar";
+  if (props.theme) {
+    theme += " " + props.theme;
   }
-  render() {
-    return (
-      <div className={this.state.theme}>
-        {this.props.children}
-      </div>
-    );
+  if (props.inverse) {
+    theme += " inverse";
   }
+  if (props.block) {
+    theme += " block";
+  }
+  if (props.location) {
+    theme += " " + props.location;
+  }
+  return (
+    <div className={theme}>
+      {props.children}
+    </div>
+  );
 }
 
 export default Bar;

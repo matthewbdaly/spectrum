@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import type { Node } from 'react';
 import './Button.scss';
 
@@ -12,32 +12,20 @@ type Props = {
   clickHandler?: () => void
 };
 
-type State = {
-  theme: string
-}
-
-class Button extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    let theme = this.props.theme;
-    if (this.props.inverse) {
-      theme += " inverse";
-    }
-    if (this.props.block) {
-      theme += " block";
-    }
-    if (this.props.rounded) {
-      theme += " rounded";
-    }
-    this.state = {
-      theme: theme
-    };
+const Button = (props: Props) => {
+  let theme = props.theme;
+  if (props.inverse) {
+    theme += " inverse";
   }
-  render() {
-    return (
-      <button className={this.state.theme} onClick={this.props.clickHandler}>{this.props.children}</button>
-    );
+  if (props.block) {
+    theme += " block";
   }
+  if (props.rounded) {
+    theme += " rounded";
+  }
+  return (
+    <button className={theme} onClick={props.clickHandler}>{props.children}</button>
+  );
 }
 
 export default Button;

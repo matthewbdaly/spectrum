@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import type { Node } from 'react';
 import './Badge.scss';
 
@@ -9,28 +9,16 @@ type Props = {
   inverse: boolean
 };
 
-type State = {
-  theme: string
-};
-
-class Badge extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    let theme = this.props.theme;
-    if (this.props.inverse) {
-      theme += " inverse";
-    }
-    this.state = {
-      theme: theme
-    };
+const Badge = (props: Props) => {
+  let theme = props.theme;
+  if (props.inverse) {
+    theme += " inverse";
   }
-  render() {
-    return (
-      <span className={ 'badge' + (this.state.theme ? (' ' + this.state.theme) : '') }>
-        {this.props.children}
-      </span>
-    );
-  }
+  return (
+    <span className={ 'badge' + (theme ? (' ' + theme) : '') }>
+      {props.children}
+    </span>
+  );
 }
 
 export default Badge;
