@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'react';
 import type { Node } from 'react';
 import './Card.scss';
 
@@ -8,19 +8,17 @@ type Props = {
   children?: Node
 }
 
-class Card extends Component<Props> {
-  render() {
+const Card = (props: Props) => {
     return (
       <section className="card">
         <section className="header">
-          <strong>{this.props.header}</strong>
+          <strong>{props.header}</strong>
         </section>
         <section className="body">
-          {this.props.children}
+          {props.children}
         </section>
       </section>
     );
-  }
 }
 
 export default Card;
