@@ -5,7 +5,7 @@ import './Loader.scss';
 type Props = {
 };
 
-const Loader = (props: <Props) => {
+const Loader = (props: Props) => {
   return (
     <div>
     </div>
